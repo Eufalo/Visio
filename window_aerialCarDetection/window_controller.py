@@ -6,6 +6,7 @@ from pyimagesearch.detection import Detection as dt
 from imutils.video import VideoStream
 from imutils.video import FPS
 
+from aerial_Controller.drawingTables import drawing_car_table, drawing_lines_tableH, drawing_lines_tableV
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog,QMessageBox,QTableWidgetItem,QWidget,QHeaderView,QLabel
 from PyQt5 import uic
 from PyQt5 import QtCore
@@ -64,6 +65,7 @@ class Ventana_Principal(QMainWindow):
 		# create a new line for counting in that WAy
 		print((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
 		self.detector.linesV.append((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
+
 	def controller_addHLine(self):
 		# select the bounding box of the object we want to track (make
 		# sure you press ENTER or SPACE after selecting the ROI)
@@ -81,59 +83,21 @@ class Ventana_Principal(QMainWindow):
 		scale = min([scale_w, scale_h])
 		if scale == 0:
 		    scale = 1
-
 		frame = cv2.resize(self.frame, None, fx=scale, fy=scale, interpolation = cv2.INTER_CUBIC)
 		frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 		height, width, channel = frame.shape
 		bytesPerLine = 3 * width
-
 		image = QImage(frame.data, width, height, bytesPerLine, QImage.Format_RGB888)
 		self.videoPanel.setPixmap(QPixmap.fromImage(image))
-	def drawing_car_table(self):
-		#take the detection info in Json
-		info_detection=self.detector.info_trackableObjectsToJson()
-		#create the header
-		header = ["ObjID","DetectionLineas"]
-		#load the header in the table
-		self.tableCarDetect.setColumnCount(2)
-		self.tableCarDetect.setHorizontalHeaderLabels(header)
-		#self.tableCarDetect.setRowCount(5)
-		
-		r=0
-		for object_info in info_detection:
-			c=0
-			for e in range(2):
-				if c==0:
-					item=QTableWidgetItem(object_info["objectID"])
-					print(item)
-				"""
-				elif c==1:
-					#string to contain the line counting
-					lineV_H=""
-					if len(object_info["linecounted"])>0:
-						for line, flagV_H in object_info["linecounted"],object_info["list_flag_VorH"]:
-							#detect vertical line
-							if flagV_H:
-								lineV_H+="("+line + "V) "
-							else:
-								lineV_H+="("+line + "H) "
-					item=QTableWidgetItem(lineV_H)
-				"""
-				item.setFlags( QtCore.Qt.ItemIsSelectable |  QtCore.Qt.ItemIsEnabled )
-				self.tableCarDetect.setItem(r,c,item )
-				c=c+1
-
-			r=r+1
-		#self.table_Categorias.cellClicked.connect(self.cellClick)
-		head = self.tableCarDetect.horizontalHeader()
-		head.setSectionResizeMode(QHeaderView.Stretch)
-		head.setStretchLastSection(True)
-		self.tableCarDetect.repaint()
 	def update_tables(self):
-		self.drawing_car_table()
-
+		#drawing the car tables
+		drawing_car_table(self)
+		#drawing the lines tables if not emty
+		if self.detector.linesH:
+			drawing_lines_tableH(self)
+		if  self.detector.linesV:
+			drawing_lines_tableV(self)
 	def startDetection(self):
-
 		print("[INFO] opening video file...")
 		vs = cv2.VideoCapture(args["input"])
 		# initialize the total number of frames processed
@@ -242,7 +206,6 @@ class Ventana_Principal(QMainWindow):
 						showCrosshair=True)
 					# create a new line for counting in that WAy
 					self.detector.linesH.append((box[0], box[1]+ box[3],box[0]+box[2],box[1]))
-					print(self.linesH)
 			# increment the total number of frames processed thus far and
 			# then update the FPS counter
 			totalFrames += 1
