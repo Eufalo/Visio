@@ -1,0 +1,37 @@
+Manual de Usuario:
+
+EJECUCION:
+  Librerias necesarias para ejecutar el codigo.
+
+  dlib https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/
+  Opencv https://www.pyimagesearch.com/opencv-tutorials-resources-guides/
+  imutils https://github.com/jrosebr1/imutils
+
+  Comandos para ejecutar el codigo:
+  -i --input ruta al video a procesar.
+  -o --output path a la ruta de destino del video procesado
+  -y --yolo  path al directorio de la red YOLO -> en nuestro caso ./yolo-coco-aerial
+  -c --confidence probabilidad sobre la que se filtran las detecciones, si no se especifica por defecto sera 0.7
+  -f --skip-frames una deteccion cada numero de fram que se especifique por defecto seran 50 imagenes
+
+  Ejemplo de ejecucion:
+
+  python3 carTraking_smartDirectionLineCount.py --input videos/aerial_mini.mp4 --output output/overpass.avi --yolo yolo-coco-aerial
+
+  python3 carTraking_smartDirectionLineCount.py --input videos/aerial_dark.mp4 --output output/overpass.avi --yolo yolo-coco-aerial -c 0.6 -f 30
+
+VISUALIZACION
+Opciones una vez iniciado el video.
+
+Tecla s.
+  Si queremos añadir un nuevo objeto manualmente para que comience a ser detecato debemos pulsaremos la tecla s
+  si clicamos nos aparecera una aerea de deteccion que comenzara a ser detectada por el sistema.
+
+Tecla q.
+  Finalizaremos la ejecucion del programa
+
+Tecla v.
+  Añade una linea vertical para realizar el conteo inteligente de vehiculos
+
+Tecla h
+  Añade una linea horizontal para realizar el conteo inteligente de vehiculos
