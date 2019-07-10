@@ -42,6 +42,87 @@ class Detection:
     	self.totalCount = 0
         # initilize the box rectangles
     	self.rects = []
+    def info_lines(self):
+        objectsJson=[]
+        if self.linesH:
+            for i in self.linesH:
+                json = {'lineID': '', 'flag_VorH': ""
+                ,'direction':[] ,'objectID': []}
+                json['lineID']= i
+                json['flag_VorH']=False
+                #add the json line to the cointainer
+                objectsJson.append(json)
+        if self.linesV:
+            for i in self.linesV:
+                json = {'lineID': '', 'flag_VorH': ""
+                ,'direction':[] ,'objectID': []}
+                json['lineID']= i
+                json['flag_VorH']=True
+                #add the json line to the cointainer
+                objectsJson.append(json)
+        #loop over the trackable object
+        for objectid in self.trackableObjects:
+            #get the trackable object
+            to=self.trackableObjects.get(objectid)
+            #if the object have some line counted
+            if to.linecounted:
+                for i,line in enumerate(to.linecounted):
+                    for e,obj in enumerate(objectsJson):
+                        #if we find the same line than the json we add a car
+                        if obj['lineID']==line and objectsJson[e]['flag_VorH']==to.list_flag_VorH[i]:
+                            json['direction'].append(to.direction[i])
+                            json['objectID'].append(to.objectID)
+    #fuction give a line informacion -> Array of Json -> id line flag for vertical or h line (V F)
+    #array of direction and the array of object samte iterable position
+    #[{'lineID': '', 'flag_VorH': "",'direction':[] ,'objectID': []}}]
+    def info_lines_trackableObjectsToJson(self):
+        #incialice cointainer
+        objectsJson=[]
+        #loop over the trackable object
+        for objectid in self.trackableObjects:
+            #get the trackable object
+            to=self.trackableObjects.get(objectid)
+            #if the object have some line counted
+            if to.linecounted:
+                #loop over the lines counter the trackable object
+                for i,line in enumerate(to.linecounted):
+                    #if the Json it empty create
+                    if not objectsJson:
+                        #create a json for the trackable object info
+                        json = {'lineID': '', 'flag_VorH': ""
+                        ,'direction':[] ,'objectID': []}
+                        json['lineID']= line
+                        json['flag_VorH']=to.list_flag_VorH[i]
+                        json['direction'].append(to.direction[i])
+                        json['objectID'].append(to.objectID)
+                        #add the json line to the cointainer
+                        objectsJson.append(json)
+                    else:
+                        #incialice varible for check if the line it not in json
+                        aux_flag=True;
+                        aux_e=0
+                        #loop over the line in the json
+                        for e,obj in enumerate(objectsJson):
+                            #if we find the same line than the json we add a car
+                            if obj['lineID']==line and obj['flag_VorH']==to.list_flag_VorH[i]:
+                                objectsJson[e]['direction'].append(to.direction[i])
+                                objectsJson[e]['objectID'].append(to.objectID)
+                                aux_flag=False
+                            aux_e=e
+                        #if we do all the loop and the flag it true we add the new line in the Json
+                        if aux_e==len(objectsJson)-1 and aux_flag:
+                            #create a json for the trackable object info
+                            json = {'lineID': '', 'flag_VorH': []
+                            ,'direction':[] ,'objectID': []}
+                            json['lineID']= line
+                            json['flag_VorH']=to.list_flag_VorH[i]
+                            json['direction'].append(to.direction[i])
+                            json['objectID'].append(to.objectID)
+                            #add the json line  to the cointainer
+                            objectsJson.append(json)
+
+        return objectsJson
+
     def info_id_trackableObjectsToJson(self,objectID):
         to = self.trackableObjects.get(objectID, None)
         # if exist the trackable object
@@ -57,7 +138,7 @@ class Detection:
         for objectid in self.trackableObjects:
             #get the trackable object
             to=self.trackableObjects.get(objectid)
-            
+
             #create a json for the trackable object info
             json = {'objectID': to.objectID, 'linecounted':  to.linecounted, 'list_flag_VorH': to.list_flag_VorH
             ,'framecounted': to.framecounted,'direction': to.direction,'centroids':to.centroids}
@@ -75,6 +156,7 @@ class Detection:
         #loop over the vertical lines for printing
         for i in self.linesV:
         	cv2.line(frame,  (i[0], i[1]), (i[2], i[3]), (0, 255, 0), 4)
+    #update the informacion of the tracker object and drawing the frame with the id and centroids
     def updateObjectInfo(self,frame,totalFrames):
         # use the centroid tracker to associate the (1) old object
         # centroids with (2) the newly computed object centroids
@@ -124,6 +206,7 @@ class Detection:
         	cv2.putText(frame, text, (centroid[0] - 15, centroid[1] - 15),
         		cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 255, 0), 2)
         	cv2.circle(frame, (centroid[0], centroid[1]), 4, (0, 255, 0), -1)
+    #function for generate new detection or traking
     def new_detection(self,frame,flag,W, H,rgb,coef,totalFrames):
         self.rects = []
         # if flag is true strart the detection
@@ -199,4 +282,5 @@ class Detection:
 
             	# add the bounding box coordinates to the rectangles list
             	self.rects.append((startX, startY, endX, endY))
+            #update the informacion of all objects
             self.updateObjectInfo(frame,totalFrames)
