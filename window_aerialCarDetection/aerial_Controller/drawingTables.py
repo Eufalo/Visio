@@ -57,6 +57,7 @@ def drawing_lines_tableH(self):
     #we can see the last line in the frist positions
     for aux_i in range(len(info_lines_detection)-1,-1,-1):
         if not info_lines_detection[aux_i]['flag_VorH']:
+            #print("Horizontales",info_lines_detection[aux_i])
             c=0
             for e in range(2):
                 if c==0:
@@ -93,6 +94,7 @@ def drawing_lines_tableV(self):
     #we can see the last line in the frist positions
     for aux_i in range(len(info_lines_detection)-1,-1,-1):
         if info_lines_detection[aux_i]['flag_VorH']:
+            #print("VERTICAL",info_lines_detection[aux_i])
             c=0
             for e in range(2):
                 if c==0:
