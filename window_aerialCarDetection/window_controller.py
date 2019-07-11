@@ -54,8 +54,25 @@ class Ventana_Principal(QMainWindow):
 		#start the add lines controller
 		self.addHLine.clicked.connect(self.controller_addHLine)
 		self.addVLine.clicked.connect(self.controller_addVLine)
+		#add controller for the table car detection
+		self.tableCarDetect.cellClicked.connect(self.cell_car_Click)
+		#add new manual detection controller
+		self.add_ManualDetection.clicked.connect(self.controller_addManualDetection)
 		#Inicialice the class detection
 		self.detector = dt(args["yolo"])
+
+	#controller for the table clicker
+	@QtCore.pyqtSlot()
+	def cell_car_Click(self):
+		#print(self.detector.trackableObjects)
+	    #self.tableCarDetect.getItem(
+		row=self.tableCarDetect.currentItem().row()
+		#get the id of the object in the table
+		objid=self.tableCarDetect.item(row,0).text()
+		self.detector.trackableObjects.get(int(objid)).activeTraking()
+		self.detector.pritn_trakingobjct(self.frame)
+		self.update_frame()
+
 
 	def controller_addVLine(self):
 		# select the bounding box of the object we want to track (make
@@ -63,7 +80,6 @@ class Ventana_Principal(QMainWindow):
 		box = cv2.selectROI("Frame", self.frame, fromCenter=False,
 			showCrosshair=True)
 		# create a new line for counting in that WAy
-		print((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
 		self.detector.linesV.append((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
 
 	def controller_addHLine(self):
@@ -71,11 +87,29 @@ class Ventana_Principal(QMainWindow):
 		# sure you press ENTER or SPACE after selecting the ROI)
 		box = cv2.selectROI("Frame", self.frame, fromCenter=False,
 			showCrosshair=True)
+
 		# create a new line for counting in that WAy
 		self.detector.linesH.append((box[0], box[1]+ box[3],box[0]+box[2],box[1]))
+	def controller_addManualDetection(self):
+		# select the bounding box of the object we want to track (make
+		# sure you press ENTER or SPACE after selecting the ROI)
+		box = cv2.selectROI("Frame", self.frame, fromCenter=False,
+			showCrosshair=True)
+		# create a new object tracker for the bounding box and add it
+		# to our multi-object tracker
+		tracker = dlib.correlation_tracker()
+		rect = dlib.rectangle( box[0], box[1], box[0] + box[2], box[1] + box[3])
+		rgb = cv2.cvtColor(self.frame, cv2.COLOR_BGR2RGB)
+		tracker.start_track(rgb, rect)
+		# add the tracker to our list of self.trackers so we can
+		# utilize it during skip frames
+		self.detector.trackers.append(tracker)
+	# if the `v` key was pressed, u can add a vertical line
+	#controller to satar the video dectection
 	def controller_start_clicked(self):
 		self.start_video.setEnabled(False)
 		self.startDetection()
+	#update the new frame in the Qlabel to show the video in the main window
 	def update_frame(self):
 		height, width, channel = self.frame.shape
 		scale_w = float(self.window_width) / float(width)
@@ -147,10 +181,13 @@ class Ventana_Principal(QMainWindow):
 			else:
 				#flag false tracking active
 				self.detector.new_detection(self.frame,False,W, H,rgb,args["confidence"],totalFrames)
+			if self.flagLine.checkState()==2:
+				self.detector.paint_linesH(self.frame)
+				self.detector.paint_linesV(self.frame)
+			if self.flagBoxes.checkState()==2:
+				self.detector.print_boundingbox(self.frame)
 
-			self.detector.print_boundingbox(self.frame)
-			self.detector.paint_linesH(self.frame)
-			self.detector.paint_linesV(self.frame)
+			self.detector.pritn_trakingobjct(self.frame)
 
 			# update the car counting information we will be displaying on the
 			# the window
@@ -195,7 +232,7 @@ class Ventana_Principal(QMainWindow):
 					box = cv2.selectROI("Frame", self.frame, fromCenter=False,
 						showCrosshair=True)
 					# create a new line for counting in that WAy
-					print((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
+					#print((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
 					self.detector.linesV.append((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
 
 			# if the `h` key was pressed, u can add a horizontal line

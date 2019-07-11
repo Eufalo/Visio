@@ -20,7 +20,7 @@
    <widget class="QGroupBox" name="addline">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>80</x>
       <y>0</y>
       <width>131</width>
       <height>61</height>
@@ -70,7 +70,7 @@
    <widget class="QGroupBox" name="Visualizar">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>310</x>
       <y>0</y>
       <width>271</width>
       <height>61</height>
@@ -94,6 +94,9 @@
      <property name="text">
       <string>Bounding Boxes</string>
      </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QCheckBox" name="flagLine">
      <property name="geometry">
@@ -106,6 +109,9 @@
      </property>
      <property name="text">
       <string>Lineas deteccion</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>
@@ -168,7 +174,7 @@
    <widget class="QGroupBox" name="groupBox_Carcount">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>590</x>
       <y>0</y>
       <width>121</width>
       <height>61</height>
@@ -226,6 +232,39 @@
       <height>35</height>
      </size>
     </property>
+   </widget>
+   <widget class="QGroupBox" name="addmanualdetection">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Detección</string>
+    </property>
+    <widget class="QToolButton" name="add_ManualDetection">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>26</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/selection.png</normaloff>img/selection.png</iconset>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QToolBar" name="toolBar">

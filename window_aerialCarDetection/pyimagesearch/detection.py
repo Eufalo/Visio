@@ -138,74 +138,102 @@ class Detection:
         for objectid in self.trackableObjects:
             #get the trackable object
             to=self.trackableObjects.get(objectid)
-
             #create a json for the trackable object info
             json = {'objectID': to.objectID, 'linecounted':  to.linecounted, 'list_flag_VorH': to.list_flag_VorH
-            ,'framecounted': to.framecounted,'direction': to.direction,'centroids':to.centroids}
+            ,'framecounted': to.framecounted,'direction': to.direction,'centroids':to.centroids,'path_first_image':to.path_first_image}
             #add the json trackable object to the cointainer
             trackableObjectsJson.append(json)
         return trackableObjectsJson
+
+    def pritn_trakingobjct(self,frame):
+        for objectid in self.trackableObjects:
+            #get the trackable object
+            to=self.trackableObjects.get(objectid)
+            if to is not None and to.traking_active:
+                info_objId=self.info_id_trackableObjectsToJson(objectid)
+                if info_objId:
+                    points=[i for i in info_objId['centroids']]
+                    points = np.array(points)
+                    text = "ID{}".format(to.objectID)
+                    cv2.putText(frame, text, (points[0][0] - 5, points[0][1] -25),
+                    cv2.FONT_HERSHEY_TRIPLEX, 0.5, (255,0,255), 2)
+                    # points.dtype => 'int64'
+                    cv2.polylines(frame, np.int32([points]),False, (255,0,255),2)
+
     def print_boundingbox(self,frame):
         for i in self.rects:
         	cv2.rectangle(frame,  (i[0], i[1]), (i[2], i[3]), (0, 255, 0), 4)
-        	#cv2.rectangle(frame,  (i[0]+5, i[1]+5), (i[2]+5, i[3]+5), (255, 255, 255), 1)
+
     def paint_linesH(self,frame):
-        for i in self.linesH:
-        	cv2.line(frame,  (i[0], i[1]), (i[2], i[3]), (0, 255, 0), 4)
+        for e,i in enumerate(self.linesH):
+            cv2.line(frame,  (i[0], i[1]), (i[2], i[3]), (255, 255, 0), 4)
+            text = "{}H".format(e)
+            cv2.putText(frame, text, (i[0] - 5, i[1] -25),
+            cv2.FONT_HERSHEY_TRIPLEX, 0.5, (255, 255, 0), 2)
+
     def paint_linesV(self,frame):
         #loop over the vertical lines for printing
-        for i in self.linesV:
-        	cv2.line(frame,  (i[0], i[1]), (i[2], i[3]), (0, 255, 0), 4)
+        for e, i in enumerate(self.linesV):
+            cv2.line(frame,  (i[0], i[1]), (i[2], i[3]), (0, 255, 255), 4)
+            text = "{}V".format(e)
+            cv2.putText(frame, text, (i[0] - 10, i[1] -10),
+            cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 255, 255), 2)
+
     #update the informacion of the tracker object and drawing the frame with the id and centroids
     def updateObjectInfo(self,frame,totalFrames):
         # use the centroid tracker to associate the (1) old object
         # centroids with (2) the newly computed object centroids
         objects = self.ct.update(self.rects)
         # loop over the tracked objects
-        for (objectID, centroid) in objects.items():
-        	# check to see if a trackable object exists for the current
-        	# object ID
-        	to = self.trackableObjects.get(objectID, None)
+        for objectID, centroid in objects.items():
+            # check to see if a trackable object exists for the current
+            # object ID
+            to = self.trackableObjects.get(objectID, None)
 
-        	# if there is no existing trackable object, create one
-        	if to is None:
-        		to = TrackableObject(objectID, centroid)
+            # if there is no existing trackable object, create one
+            if to is None:
+                #take the firt image of the object detection
+                cropped = frame[centroid[1]-13:centroid[1]+13, centroid[0]-15:centroid[0]+15]
+                #load in the imagen_crapped carpet
+                cv2.imwrite("./pyimagesearch/imagen_crapped/"+str(objectID)+".png", cropped)
+                to = TrackableObject(objectID, centroid,"./imagen_crapped/"+str(objectID)+".png")
 
-        	# otherwise, there is a trackable object so we can utilize it
-        	# to determine direction
-        	else:
+            # otherwise, there is a trackable object so we can utilize it
+            # to determine direction
+            else:
 
-        		# If the mean directionx it bigger than directiony will tell us
-        		#than the direction it right or left or if the directiony it bigges will
-        		#know that the direction it up or down
-        		directionx = centroid[0] - to.centroids[-1][0]
-        		directiony = centroid[1] - to.centroids[-1][1]
-        		to.centroids.append(centroid)
-        		#Detection for vertical and horizontal lines
-        		if self.linesV:
-        			to.linecross(self.linesV,True,directionx,totalFrames)
-        		if self.linesH:
-        			to.linecross(self.linesH,False,directiony,totalFrames)
-        		#the distance traking between the centroid[-1] to centroid[-2] -> √((x2-x1)^2 + (y2-y1)^2)
-        		(x2,y2)=(to.centroids[-1][0],to.centroids[-1][1])
-        		(x1,y1)=(to.centroids[-2][0],to.centroids[-2][1])
-        		distance = math.sqrt(pow((x2-x1),2)+pow(((y2-y1)),2))
-        		# check to see if the object has been counted or not
-        		if not to.counted:
-        			# if the direction is negative (indicating the object
-        			# is moving up) AND the centroid is above the center
-        			# line, count the object
-        			self.totalCount+=1
-        			to.counted = True
+                # If the mean directionx it bigger than directiony will tell us
+                #than the direction it right or left or if the directiony it bigges will
+                #know that the direction it up or down
+                directionx = centroid[0] - to.centroids[-1][0]
+                directiony = centroid[1] - to.centroids[-1][1]
+                to.centroids.append(centroid)
+                #Detection for vertical and horizontal lines
+                if self.linesV:
+                    to.linecross(self.linesV,True,directionx,totalFrames)
+                if self.linesH:
+                    to.linecross(self.linesH,False,directiony,totalFrames)
+                #the distance traking between the centroid[-1] to centroid[-2] -> √((x2-x1)^2 + (y2-y1)^2)
+                (x2,y2)=(to.centroids[-1][0],to.centroids[-1][1])
+                (x1,y1)=(to.centroids[-2][0],to.centroids[-2][1])
+                distance = math.sqrt(pow((x2-x1),2)+pow(((y2-y1)),2))
+                # check to see if the object has been counted or not
+                if not to.counted:
+                    # if the direction is negative (indicating the object
+                    # is moving up) AND the centroid is above the center
+                    # line, count the object
+                    self.totalCount+=1
+                    to.counted = True
 
-        	# store the trackable object in our dictionary
-        	self.trackableObjects[objectID] = to
-        	# draw both the ID of the object and the centroid of the
-        	# object on the output frame
-        	text = "ID {}".format(objectID)
-        	cv2.putText(frame, text, (centroid[0] - 15, centroid[1] - 15),
-        		cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 255, 0), 2)
-        	cv2.circle(frame, (centroid[0], centroid[1]), 4, (0, 255, 0), -1)
+            # store the trackable object in our dictionary
+            self.trackableObjects[objectID] = to
+            # draw both the ID of the object and the centroid of the
+            # object on the output frame
+            text = "ID {}".format(objectID)
+            cv2.putText(frame, text, (centroid[0] - 15, centroid[1] - 15),
+            cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 255, 0), 2)
+            cv2.circle(frame, (centroid[0], centroid[1]), 4, (0, 255, 0), -1)
+
     #function for generate new detection or traking
     def new_detection(self,frame,flag,W, H,rgb,coef,totalFrames):
         self.rects = []

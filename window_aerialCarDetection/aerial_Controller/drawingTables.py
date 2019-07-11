@@ -1,16 +1,17 @@
 from PyQt5.QtWidgets import QTableWidgetItem
-from PyQt5 import QtCore
+from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog,QMessageBox,QTableWidgetItem,QWidget,QHeaderView,QLabel
+from PyQt5.QtGui import QIcon,QImage,QBrush
 from PyQt5 import uic
-from PyQt5 import QtCore
+from PyQt5 import QtCore,QtWidgets
 
 def drawing_car_table(self):
     #take the detection info in Json
     info_detection=self.detector.info_trackableObjectsToJson()
     #create the header
-    header = ["ObjID","Linea, direccion"]
+    header = ["ID","Obje","Linea, direccion"]
     #load the header in the table
-    self.tableCarDetect.setColumnCount(2)
+    self.tableCarDetect.setColumnCount(3)
     self.tableCarDetect.setHorizontalHeaderLabels(header)
     self.tableCarDetect.setRowCount(len(info_detection))
     r=0
@@ -18,10 +19,16 @@ def drawing_car_table(self):
     #we can see the last detection in the frist positions
     for aux_i in range(len(info_detection)-1,-1,-1):
         c=0
-        for e in range(2):
-            if c==0:
+        for e in range(3):
+            if c==1:
+                #take the first image of the object
+                img=QImage("./pyimagesearch/imagen_crapped/"
+                +str(info_detection[aux_i]['objectID'])+".png")
+                item=QTableWidgetItem("")
+                item.setBackground(QBrush(img))
+            elif c==0:
                 item=QTableWidgetItem(str(info_detection[aux_i]['objectID']))
-            elif c==1:
+            elif c==2:
                 #string to contain the line counting
                 lineV_H=""
                 if len(info_detection[aux_i]['linecounted'])>0:
@@ -38,9 +45,9 @@ def drawing_car_table(self):
             self.tableCarDetect.setItem(r,c,item )
             c=c+1
         r=r+1
-    #self.table_Categorias.cellClicked.connect(self.cellClick)
+
     head = self.tableCarDetect.horizontalHeader()
-    head.setSectionResizeMode(QHeaderView.Stretch)
+    head.setSectionResizeMode(QHeaderView.ResizeToContents)
     head.setStretchLastSection(True)
     self.tableCarDetect.repaint()
 def drawing_lines_tableH(self):
@@ -77,7 +84,7 @@ def drawing_lines_tableH(self):
             r=r+1
     #self.table_Categorias.cellClicked.connect(self.cellClick)
     head = self.tableHline.horizontalHeader()
-    head.setSectionResizeMode(QHeaderView.Stretch)
+    head.setSectionResizeMode(QHeaderView.ResizeToContents)
     head.setStretchLastSection(True)
     self.tableHline.repaint()
 def drawing_lines_tableV(self):
@@ -114,6 +121,9 @@ def drawing_lines_tableV(self):
             r=r+1
     #self.table_Categorias.cellClicked.connect(self.cellClick)
     head = self.tableVline.horizontalHeader()
-    head.setSectionResizeMode(QHeaderView.Stretch)
+    head.setSectionResizeMode(QHeaderView.ResizeToContents)
     head.setStretchLastSection(True)
     self.tableVline.repaint()
+
+
+    #QMessageBox.about(self,row)
