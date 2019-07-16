@@ -8,7 +8,6 @@ import argparse
 import imutils
 import time
 import dlib
-import math
 import cv2
 import os
 class Detection:
@@ -122,7 +121,6 @@ class Detection:
                             objectsJson.append(json)
 
         return objectsJson
-
     def info_id_trackableObjectsToJson(self,objectID):
         to = self.trackableObjects.get(objectID, None)
         # if exist the trackable object
@@ -138,13 +136,15 @@ class Detection:
         for objectid in self.trackableObjects:
             #get the trackable object
             to=self.trackableObjects.get(objectid)
+            #get de distance and time
+            distance, time=to.get_distanciaTotalpix_Tiempotrascurrido()
             #create a json for the trackable object info
             json = {'objectID': to.objectID, 'linecounted':  to.linecounted, 'list_flag_VorH': to.list_flag_VorH
-            ,'framecounted': to.framecounted,'direction': to.direction,'centroids':to.centroids,'path_first_image':to.path_first_image}
+            ,'framecounted': to.framecounted,'direction': to.direction,'centroids':to.centroids
+            ,'path_first_image':to.path_first_image,'distance':distance,'time':time}
             #add the json trackable object to the cointainer
             trackableObjectsJson.append(json)
         return trackableObjectsJson
-
     def pritn_trakingobjct(self,frame):
         for objectid in self.trackableObjects:
             #get the trackable object
@@ -159,18 +159,15 @@ class Detection:
                     cv2.FONT_HERSHEY_TRIPLEX, 0.5, (255,0,255), 2)
                     # points.dtype => 'int64'
                     cv2.polylines(frame, np.int32([points]),False, (255,0,255),2)
-
     def print_boundingbox(self,frame):
         for i in self.rects:
         	cv2.rectangle(frame,  (i[0], i[1]), (i[2], i[3]), (0, 255, 0), 4)
-
     def paint_linesH(self,frame):
         for e,i in enumerate(self.linesH):
             cv2.line(frame,  (i[0], i[1]), (i[2], i[3]), (255, 255, 0), 4)
             text = "{}H".format(e)
             cv2.putText(frame, text, (i[0] - 5, i[1] -25),
             cv2.FONT_HERSHEY_TRIPLEX, 0.5, (255, 255, 0), 2)
-
     def paint_linesV(self,frame):
         #loop over the vertical lines for printing
         for e, i in enumerate(self.linesV):
@@ -178,7 +175,6 @@ class Detection:
             text = "{}V".format(e)
             cv2.putText(frame, text, (i[0] - 10, i[1] -10),
             cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 255, 255), 2)
-
     #update the informacion of the tracker object and drawing the frame with the id and centroids
     def updateObjectInfo(self,frame,totalFrames):
         # use the centroid tracker to associate the (1) old object
@@ -196,7 +192,7 @@ class Detection:
                 cropped = frame[centroid[1]-13:centroid[1]+13, centroid[0]-15:centroid[0]+15]
                 #load in the imagen_crapped carpet
                 cv2.imwrite("./pyimagesearch/imagen_crapped/"+str(objectID)+".png", cropped)
-                to = TrackableObject(objectID, centroid,"./imagen_crapped/"+str(objectID)+".png")
+                to = TrackableObject(objectID, centroid,"./imagen_crapped/"+str(objectID)+".png",time.time())
 
             # otherwise, there is a trackable object so we can utilize it
             # to determine direction
@@ -207,16 +203,16 @@ class Detection:
                 #know that the direction it up or down
                 directionx = centroid[0] - to.centroids[-1][0]
                 directiony = centroid[1] - to.centroids[-1][1]
+                #add the centroid to the object
                 to.centroids.append(centroid)
+                #add the time to the centroid detectection
+                to.time_trakings.append(time.time())
                 #Detection for vertical and horizontal lines
                 if self.linesV:
                     to.linecross(self.linesV,True,directionx,totalFrames)
                 if self.linesH:
                     to.linecross(self.linesH,False,directiony,totalFrames)
-                #the distance traking between the centroid[-1] to centroid[-2] -> √((x2-x1)^2 + (y2-y1)^2)
-                (x2,y2)=(to.centroids[-1][0],to.centroids[-1][1])
-                (x1,y1)=(to.centroids[-2][0],to.centroids[-2][1])
-                distance = math.sqrt(pow((x2-x1),2)+pow(((y2-y1)),2))
+
                 # check to see if the object has been counted or not
                 if not to.counted:
                     # if the direction is negative (indicating the object
@@ -233,7 +229,6 @@ class Detection:
             cv2.putText(frame, text, (centroid[0] - 15, centroid[1] - 15),
             cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 255, 0), 2)
             cv2.circle(frame, (centroid[0], centroid[1]), 4, (0, 255, 0), -1)
-
     #function for generate new detection or traking
     def new_detection(self,frame,flag,W, H,rgb,coef,totalFrames):
         self.rects = []
@@ -289,8 +284,6 @@ class Detection:
         				# add the tracker to our list of self.trackers so we can
         				# utilize it during skip frames
         				self.trackers.append(tracker)
-
-
 
         # if flag is false strart the tracking
         else:

@@ -9,9 +9,9 @@ def drawing_car_table(self):
     #take the detection info in Json
     info_detection=self.detector.info_trackableObjectsToJson()
     #create the header
-    header = ["ID","Obje","Linea, direccion"]
+    header = ["ID","Obje","Distancia","Seg","Vel","Linea, direccion"]
     #load the header in the table
-    self.tableCarDetect.setColumnCount(3)
+    self.tableCarDetect.setColumnCount(6)
     self.tableCarDetect.setHorizontalHeaderLabels(header)
     self.tableCarDetect.setRowCount(len(info_detection))
     r=0
@@ -19,7 +19,7 @@ def drawing_car_table(self):
     #we can see the last detection in the frist positions
     for aux_i in range(len(info_detection)-1,-1,-1):
         c=0
-        for e in range(3):
+        for e in range(6):
             if c==1:
                 #take the first image of the object
                 img=QImage("./pyimagesearch/imagen_crapped/"
@@ -28,7 +28,7 @@ def drawing_car_table(self):
                 item.setBackground(QBrush(img))
             elif c==0:
                 item=QTableWidgetItem(str(info_detection[aux_i]['objectID']))
-            elif c==2:
+            elif c==5:
                 #string to contain the line counting
                 lineV_H=""
                 if len(info_detection[aux_i]['linecounted'])>0:
@@ -41,6 +41,24 @@ def drawing_car_table(self):
                         else:
                             lineV_H+="("+str(info_detection[aux_i]['linecounted'][i]) + "H, "+ str(info_detection[aux_i]['direction'][i]) +") "
                 item=QTableWidgetItem(str(lineV_H))
+            elif c==2:
+                #item=QTableWidgetItem(str(int(info_detection[aux_i]['distance'])))
+                #conver the distance in pixels to distance in meters
+                distanceInM=float("{0:.2f}".format(info_detection[aux_i]['distance'] * self.pixelesToMeter))
+                item=QTableWidgetItem(str(distanceInM))
+            elif c==3:
+                item=QTableWidgetItem(str(int(info_detection[aux_i]['time'])))
+            elif c==4:
+                #calculate the average speed for the object
+                # Speed= ditance/tiempo
+                #conver the distance in pixels to distance in meters
+                speed="0"
+                if int(info_detection[aux_i]['time']) > 0:
+                    speed=(info_detection[aux_i]['distance'] * self.pixelesToMeter)/int(info_detection[aux_i]['time'])
+                    #meters/s to Km/h * 3,6
+                    speed = float("{0:.2f}".format(speed * 3.6))
+                item=QTableWidgetItem(str(speed))
+
             item.setFlags( QtCore.Qt.ItemIsSelectable |  QtCore.Qt.ItemIsEnabled )
             self.tableCarDetect.setItem(r,c,item )
             c=c+1
@@ -49,6 +67,7 @@ def drawing_car_table(self):
     head = self.tableCarDetect.horizontalHeader()
     head.setSectionResizeMode(QHeaderView.ResizeToContents)
     head.setStretchLastSection(True)
+    self.tableCarDetect.verticalHeader().hide()
     self.tableCarDetect.repaint()
 def drawing_lines_tableH(self):
     #take the detection info in Json
@@ -86,6 +105,7 @@ def drawing_lines_tableH(self):
     head = self.tableHline.horizontalHeader()
     head.setSectionResizeMode(QHeaderView.ResizeToContents)
     head.setStretchLastSection(True)
+    self.tableHline.verticalHeader().hide()
     self.tableHline.repaint()
 def drawing_lines_tableV(self):
     #take the detection info in Json
@@ -123,6 +143,7 @@ def drawing_lines_tableV(self):
     head = self.tableVline.horizontalHeader()
     head.setSectionResizeMode(QHeaderView.ResizeToContents)
     head.setStretchLastSection(True)
+    self.tableVline.verticalHeader().hide()
     self.tableVline.repaint()
 
 

@@ -1,5 +1,6 @@
+import math
 class TrackableObject:
-	def __init__(self, objectID, centroid,path_first_image):
+	def __init__(self, objectID, centroid,path_first_image,time):
 		# store the object ID, then initialize a list of centroids
 		# using the current centroid
 		self.objectID = objectID
@@ -18,9 +19,10 @@ class TrackableObject:
 		self.framecounted=[]
 		#incialice boolean used to indicate if we use the list of centroid traking
 		self.traking_active=False
-		#cropped = self.frame[y1:y2, x1:x2]
-		#cv2.imshow("cropped", cropped)
+		#path to the first image detection
 		self.path_first_image=path_first_image
+		#inicialice the container for the time trakings
+		self.time_trakings=[time]
 	def linecross(self,lines,flag_VorH,direction,totalFrames):
 		countv=0
 		#loop over vertical lines
@@ -62,3 +64,12 @@ class TrackableObject:
 			self.traking_active=False
 		else:
 			self.traking_active=True
+	def get_distanciaTotalpix_Tiempotrascurrido(self):
+		if len(self.centroids)>1:
+			#the distance traking between the centroid[0] to centroid[-1] -> √((x2-x1)^2 + (y2-y1)^2)
+			(x2,y2)=(self.centroids[-1][0],self.centroids[-1][1])
+			(x1,y1)=(self.centroids[0][0],self.centroids[0][1])
+			#distance betwen centroid in pixeles
+			distance=math.sqrt(pow((x2-x1),2)+pow(((y2-y1)),2))
+			time=self.time_trakings[-1]-self.time_trakings[0]
+		return distance, time

@@ -16,7 +16,6 @@ import sys
 import numpy as np
 import argparse
 import imutils
-import json
 import time
 import dlib
 import math
@@ -40,11 +39,6 @@ ap.add_argument("-t", "--threshold", type=float, default=0.3,
 ap.add_argument("-f", "--skip-frames", type=int, default=50,
 	help="# of skip frames between detections")
 args = vars(ap.parse_args())
-class NumpyEncoder(json.JSONEncoder):
-	def default(self, obj):
-		if isinstance(obj, np.ndarray):
-			return obj.tolist()
-		return json.JSONEncoder.default(self, obj)
 class Ventana_Principal(QMainWindow):
 #Método constructor de la clase
 	def __init__(self):
@@ -60,42 +54,34 @@ class Ventana_Principal(QMainWindow):
 		#start the add lines controller
 		self.addHLine.clicked.connect(self.controller_addHLine)
 		self.addVLine.clicked.connect(self.controller_addVLine)
-		#add controller for the extractor button
-		self.extractor_but.clicked.connect(self.controller_extraccion_info)
 		#add controller for the table car detection
 		self.tableCarDetect.cellClicked.connect(self.cell_car_Click)
 		#add new manual detection controller
 		self.add_ManualDetection.clicked.connect(self.controller_addManualDetection)
 		#Inicialice the class detection
-		self.detector = None
-		#path to the videofile
-		self.videofile=None
-		#referencia for the speed pixeles to meter
-		#we take the reference that the car length is 3m and in the video the leng
-		#of the detection average it 30 we use 10 pixels 1 meter
-		self.pixelesToMeter=0.1
+		self.detector = dt(args["yolo"])
+
 	#controller for the table clicker
 	@QtCore.pyqtSlot()
 	def cell_car_Click(self):
 		#print(self.detector.trackableObjects)
 	    #self.tableCarDetect.getItem(
 		row=self.tableCarDetect.currentItem().row()
-
 		#get the id of the object in the table
 		objid=self.tableCarDetect.item(row,0).text()
-		print(objid)
 		self.detector.trackableObjects.get(int(objid)).activeTraking()
 		self.detector.pritn_trakingobjct(self.frame)
 		self.update_frame()
-	# u can add a vertical line
+
+
 	def controller_addVLine(self):
 		# select the bounding box of the object we want to track (make
 		# sure you press ENTER or SPACE after selecting the ROI)
 		box = cv2.selectROI("Frame", self.frame, fromCenter=False,
-		showCrosshair=True)
+			showCrosshair=True)
 		# create a new line for counting in that WAy
 		self.detector.linesV.append((box[0], box[1],box[0]+box[2],box[1]+ box[3]))
-	# u can add a vertical horizontal
+
 	def controller_addHLine(self):
 		# select the bounding box of the object we want to track (make
 		# sure you press ENTER or SPACE after selecting the ROI)
@@ -118,30 +104,11 @@ class Ventana_Principal(QMainWindow):
 		# add the tracker to our list of self.trackers so we can
 		# utilize it during skip frames
 		self.detector.trackers.append(tracker)
+	# if the `v` key was pressed, u can add a vertical line
 	#controller to satar the video dectection
 	def controller_start_clicked(self):
-		#incilialice the AerialDetection
-		self.detector=dt(args["yolo"])
-		#options = QFileDialog.Options()
-		#fileName, _ = QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","All Files (*)", options=options)
-		#if fileName:
-			#self.videofile=fileName
+		self.start_video.setEnabled(False)
 		self.startDetection()
-	def controller_extraccion_info(self):
-		options = QFileDialog.Options()
-		fileName = QFileDialog.getExistingDirectory(self, 'Select directory')
-		if fileName:
-			with open(fileName+'info_car_detection.json', 'w') as json_file:
-				#for i in self.detector.info_trackableObjectsToJson():
-				json_dump = json.dumps(self.detector.info_trackableObjectsToJson(), cls=NumpyEncoder)
-				json.dump(json_dump,json_file)
-
-			with open(fileName+'info_line_detectados.json', 'w') as json_file_line:
-				#for i in self.detector.info_trackableObjectsToJson():
-				json_dump = json.dumps(self.detector.info_lines_trackableObjectsToJson(), cls=NumpyEncoder)
-				json.dump(json_dump,json_file_line)
-
-			QMessageBox.about(self, "¡Busqueda completada!", "Extraccion completada")
 	#update the new frame in the Qlabel to show the video in the main window
 	def update_frame(self):
 		#shape to take the height width and channel from the image
@@ -221,8 +188,6 @@ class Ventana_Principal(QMainWindow):
 			else:
 				#flag false tracking active
 				self.detector.new_detection(self.frame,False,W, H,rgb,args["confidence"],totalFrames)
-
-
 			if self.flagLine.checkState()==2:
 				self.detector.paint_linesH(self.frame)
 				self.detector.paint_linesV(self.frame)
@@ -240,8 +205,8 @@ class Ventana_Principal(QMainWindow):
 				self.update_tables()
 
 			# check to see if we should write the self.frame to disk
-			if writer is not None:
-				writer.write(self.frame)
+			#if writer is not None:
+				#writer.write(self.frame)
 
 			# show the output frame
 			cv2.imshow("Frame", self.frame)
@@ -285,18 +250,6 @@ class Ventana_Principal(QMainWindow):
 						showCrosshair=True)
 					# create a new line for counting in that WAy
 					self.detector.linesH.append((box[0], box[1]+ box[3],box[0]+box[2],box[1]))
-			# if the `h` key was pressed, u can add a horizontal line
-			elif key == ord("k"):
-					# select the bounding box of the object we want to track (make
-					# sure you press ENTER or SPACE after selecting the ROI)
-					box = cv2.selectROI("Frame", self.frame, fromCenter=False,
-						showCrosshair=True)
-					#distance betwen in pixeles
-					distance=math.sqrt(pow((box[0]+box[2]-box[0]),2)+pow(((box[1]+ box[3]-box[1])),2))
-					#Distance of car it 3m so we need to know how it the % for conver pixeles in meter
-					#new distance / (3 * 100)
-					self.pixelesToMeter=distance/300
-
 			# increment the total number of frames processed thus far and
 			# then update the FPS counter
 			totalFrames += 1
@@ -310,11 +263,16 @@ class Ventana_Principal(QMainWindow):
 		if writer is not None:
 			writer.release()
 
-		vs.release()
+		# if we are not using a video file, stop the camera video stream
+		if not args.get("input", False):
+			vs.stop()
+
+		# otherwise, release the video file pointer
+		else:
+			vs.release()
 
 		# close any open windows
 		cv2.destroyAllWindows()
-
 
 #Instancia para iniciar una aplicación
 app = QApplication(sys.argv)
