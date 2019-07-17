@@ -1,0 +1,2275 @@
+<?xml version="1.0" ?>
+<dataset name="StuttgartCrossroad01">
+    <frame number="0" file="C:/Training/StuttgartCrossroad01/MOS54.png" utc="2011-Sep-28 13:20:28.415000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.8008" lon="9.21163" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="247.075" yc="438.875" w="21.1493" h="24.8435" />
+                <representation type="RotatedRectangle" xc="247.075" yc="438.875" w="8.8" h="24.2" o="305.234" />
+            </object>
+            <object id="2">
+                <box xc="148.95" yc="517.225" w="35.2436" h="32.2033" />
+                <representation type="RotatedRectangle" xc="148.95" yc="517.225" w="12.4" h="35.5" o="320.34" />
+            </object>
+            <object id="3">
+                <box xc="30.4" yc="643.325" w="23.6318" h="19.4604" />
+                <representation type="RotatedRectangle" xc="30.4" yc="643.325" w="9.2" h="22.1" o="328.218" />
+            </object>
+            <object id="4">
+                <box xc="35.55" yc="621.375" w="21.8568" h="19.8116" />
+                <representation type="RotatedRectangle" xc="35.55" yc="621.375" w="10.7" h="19.2" o="324.796" />
+            </object>
+            <object id="5">
+                <box xc="68.8" yc="620.225" w="28.1033" h="24.8282" />
+                <representation type="RotatedRectangle" xc="68.8" yc="620.225" w="12.3" h="25.7" o="324.952" />
+            </object>
+            <object id="9">
+                <box xc="115.65" yc="592.725" w="26.307" h="22.5263" />
+                <representation type="RotatedRectangle" xc="115.65" yc="592.725" w="10.1" h="25" o="325.336" />
+            </object>
+            <object id="10">
+                <box xc="145.375" yc="550.9" w="23.5052" h="21.0088" />
+                <representation type="RotatedRectangle" xc="145.375" yc="550.9" w="9.7" h="22.1" o="323.184" />
+            </object>
+            <object id="11">
+                <box xc="151.525" yc="568.25" w="27.5912" h="24.0787" />
+                <representation type="RotatedRectangle" xc="151.525" yc="568.25" w="11.4" h="25.7" o="325.002" />
+            </object>
+            <object id="12">
+                <box xc="216.525" yc="522.275" w="23.895" h="22.6777" />
+                <representation type="RotatedRectangle" xc="216.525" yc="522.275" w="9.8" h="23.2" o="318.683" />
+            </object>
+            <object id="13">
+                <box xc="318.95" yc="429.625" w="24.98" h="25.221" />
+                <representation type="RotatedRectangle" xc="318.95" yc="429.625" w="10.6" h="24.9" o="314.317" />
+            </object>
+            <object id="14">
+                <box xc="301.1" yc="416.55" w="25.2418" h="25.6619" />
+                <representation type="RotatedRectangle" xc="301.1" yc="416.55" w="9.6" h="26.4" o="313.987" />
+            </object>
+            <object id="15">
+                <box xc="359.825" yc="347.775" w="23.0743" h="25.6427" />
+                <representation type="RotatedRectangle" xc="359.825" yc="347.775" w="9.8" h="24.9" o="308.092" />
+            </object>
+            <object id="16">
+                <box xc="385.75" yc="348.6" w="21.8275" h="23.577" />
+                <representation type="RotatedRectangle" xc="385.75" yc="348.6" w="10.5" h="21.8" o="308.715" />
+            </object>
+            <object id="17">
+                <box xc="424.15" yc="300.125" w="22.026" h="23.6729" />
+                <representation type="RotatedRectangle" xc="424.15" yc="300.125" w="10.8" h="21.7" o="308.867" />
+            </object>
+            <object id="18">
+                <box xc="437.925" yc="249.35" w="25.8744" h="26.958" />
+                <representation type="RotatedRectangle" xc="437.925" yc="249.35" w="10.6" h="26.8" o="312.289" />
+            </object>
+            <object id="19">
+                <box xc="489.225" yc="219.05" w="39.6346" h="42.5415" />
+                <representation type="RotatedRectangle" xc="489.225" yc="219.05" w="16.5" h="41.8" o="310.34" />
+            </object>
+            <object id="20">
+                <box xc="499.55" yc="172.675" w="25.1893" h="26.7424" />
+                <representation type="RotatedRectangle" xc="499.55" yc="172.675" w="10" h="26.8" o="311.252" />
+            </object>
+            <object id="21">
+                <box xc="611.8" yc="61.95" w="23.3116" h="25.8557" />
+                <representation type="RotatedRectangle" xc="611.8" yc="61.95" w="9.7" h="25.3" o="308.378" />
+            </object>
+            <object id="22">
+                <box xc="618.05" yc="23.725" w="23.2411" h="24.8948" />
+                <representation type="RotatedRectangle" xc="618.05" yc="23.725" w="11.1" h="23.1" o="309.408" />
+            </object>
+            <object id="23">
+                <box xc="669.325" yc="28.5" w="22.2833" h="23.8052" />
+                <representation type="RotatedRectangle" xc="669.325" yc="28.5" w="9.8" h="22.9" o="310.288" />
+            </object>
+            <object id="24">
+                <box xc="684.35" yc="10.25" w="19.2549" h="20.4436" />
+                <representation type="RotatedRectangle" xc="684.35" yc="10.25" w="9.7" h="18.5" o="309.519" />
+            </object>
+            <object id="25">
+                <box xc="140.775" yc="356" w="26.4286" h="24.5207" />
+                <representation type="RotatedRectangle" xc="140.775" yc="356" w="11.2" h="25" o="140.61" />
+            </object>
+            <object id="26">
+                <box xc="179.125" yc="305.825" w="27.452" h="25.8627" />
+                <representation type="RotatedRectangle" xc="179.125" yc="305.825" w="11.2" h="26.6" o="139.185" />
+            </object>
+            <object id="27">
+                <box xc="267.625" yc="254.075" w="25.5518" h="24.9102" />
+                <representation type="RotatedRectangle" xc="267.625" yc="254.075" w="10.7" h="25" o="136.818" />
+            </object>
+            <object id="28">
+                <box xc="349.4" yc="152.35" w="34.9887" h="36.1091" />
+                <representation type="RotatedRectangle" xc="349.4" yc="152.35" w="12.9" h="37.4" o="133.147" />
+            </object>
+            <object id="29">
+                <box xc="376.15" yc="151.55" w="24.8469" h="26.6091" />
+                <representation type="RotatedRectangle" xc="376.15" yc="151.55" w="10.4" h="26.1" o="130.448" />
+            </object>
+            <object id="30">
+                <box xc="471.875" yc="47.75" w="27.2991" h="29.4733" />
+                <representation type="RotatedRectangle" xc="471.875" yc="47.75" w="11.4" h="28.9" o="129.96" />
+            </object>
+            <object id="33">
+                <box xc="198.7" yc="67.95" w="26.7173" h="25.0146" />
+                <representation type="RotatedRectangle" xc="198.7" yc="67.95" w="10.9" h="25.8" o="220.365" />
+            </object>
+            <object id="35">
+                <box xc="663.075" yc="402.15" w="30.4486" h="24.256" />
+                <representation type="RotatedRectangle" xc="663.075" yc="402.15" w="11.4" h="28.6" o="210.251" />
+            </object>
+            <object id="38">
+                <box xc="52.7" yc="188.35" w="22.5104" h="20.9453" />
+                <representation type="RotatedRectangle" xc="52.7" yc="188.35" w="10.2" h="20.7" o="38.9498" />
+            </object>
+            <object id="39">
+                <box xc="82.275" yc="206.25" w="26.6464" h="23.1018" />
+                <representation type="RotatedRectangle" xc="82.275" yc="206.25" w="10.5" h="25.2" o="35.1829" />
+            </object>
+            <object id="40">
+                <box xc="118.3" yc="223.35" w="28.3669" h="21.4922" />
+                <representation type="RotatedRectangle" xc="118.3" yc="223.35" w="9.6" h="27.1" o="28.8724" />
+            </object>
+            <object id="41">
+                <box xc="148.4" yc="235.1" w="21.7014" h="15.427" />
+                <representation type="RotatedRectangle" xc="148.4" yc="235.1" w="10.8" h="19.6" o="14.7243" />
+            </object>
+            <object id="42">
+                <box xc="617.425" yc="312.9" w="29.0696" h="21.4708" />
+                <representation type="RotatedRectangle" xc="617.425" yc="312.9" w="11.3" h="26.8" o="204.717" />
+            </object>
+            <object id="43">
+                <box xc="620.775" yc="335.575" w="28.9366" h="22.8713" />
+                <representation type="RotatedRectangle" xc="620.775" yc="335.575" w="11.8" h="26.5" o="208.037" />
+            </object>
+            <object id="44">
+                <box xc="664" yc="356.625" w="29.2205" h="23.0147" />
+                <representation type="RotatedRectangle" xc="664" yc="356.625" w="10.5" h="27.7" o="210.219" />
+            </object>
+            <object id="45">
+                <box xc="696.2" yc="374.125" w="27.0087" h="22.3669" />
+                <representation type="RotatedRectangle" xc="696.2" yc="374.125" w="10.9" h="25" o="211.539" />
+            </object>
+            <object id="46">
+                <box xc="653.575" yc="329.75" w="24.8947" h="21.0078" />
+                <representation type="RotatedRectangle" xc="653.575" yc="329.75" w="10.5" h="22.8" o="212.088" />
+            </object>
+            <object id="47">
+                <box xc="696.1" yc="350.3" w="24.7302" h="20.4228" />
+                <representation type="RotatedRectangle" xc="696.1" yc="350.3" w="9.3" h="23.4" o="212.525" />
+            </object>
+            <object id="48">
+                <box xc="655.475" yc="310.625" w="26.0624" h="21.7606" />
+                <representation type="RotatedRectangle" xc="655.475" yc="310.625" w="11.3" h="23.6" o="210.682" />
+            </object>
+            <object id="49">
+                <box xc="688.375" yc="327.125" w="27.665" h="23.7515" />
+                <representation type="RotatedRectangle" xc="688.375" yc="327.125" w="12.8" h="24.6" o="211.437" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="1" file="C:/Training/StuttgartCrossroad01/MOS55.png" utc="2011-Sep-28 13:20:29.175000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.8005" lon="9.21214" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="247.9" yc="437.65" w="20.8995" h="24.4841" />
+                <representation type="RotatedRectangle" xc="247.9" yc="437.65" w="9.1" h="23.5" o="304.862" />
+            </object>
+            <object id="2">
+                <box xc="173.95" yc="495.225" w="34.8893" h="34.6889" />
+                <representation type="RotatedRectangle" xc="173.95" yc="495.225" w="12.3" h="36.9" o="315.33" />
+            </object>
+            <object id="3">
+                <box xc="31.3" yc="641.55" w="24.8588" h="21.1029" />
+                <representation type="RotatedRectangle" xc="31.3" yc="641.55" w="10.1" h="23.1" o="326.788" />
+            </object>
+            <object id="4">
+                <box xc="72.325" yc="597.325" w="24.0941" h="22.3063" />
+                <representation type="RotatedRectangle" xc="72.325" yc="597.325" w="10.6" h="22.4" o="321.15" />
+            </object>
+            <object id="5">
+                <box xc="74.975" yc="614.5" w="30.4258" h="26.508" />
+                <representation type="RotatedRectangle" xc="74.975" yc="614.5" w="12.6" h="28.3" o="325.163" />
+            </object>
+            <object id="9">
+                <box xc="121.9" yc="588.025" w="26.7397" h="22.9044" />
+                <representation type="RotatedRectangle" xc="121.9" yc="588.025" w="10.4" h="25.3" o="325.487" />
+            </object>
+            <object id="10">
+                <box xc="150.875" yc="546.075" w="23.8117" h="22.942" />
+                <representation type="RotatedRectangle" xc="150.875" yc="546.075" w="10.3" h="22.8" o="317.82" />
+            </object>
+            <object id="11">
+                <box xc="158.325" yc="563.075" w="29.211" h="26.4683" />
+                <representation type="RotatedRectangle" xc="158.325" yc="563.075" w="12.3" h="27.4" o="322.379" />
+            </object>
+            <object id="12">
+                <box xc="230.9" yc="509.825" w="24.3222" h="24.0388" />
+                <representation type="RotatedRectangle" xc="230.9" yc="509.825" w="10.2" h="24" o="315.832" />
+            </object>
+            <object id="13">
+                <box xc="343.1" yc="403.625" w="22.6483" h="24.2653" />
+                <representation type="RotatedRectangle" xc="343.1" yc="403.625" w="10.1" h="23.2" o="309.993" />
+            </object>
+            <object id="14">
+                <box xc="328.15" yc="387.825" w="24.6773" h="26.3763" />
+                <representation type="RotatedRectangle" xc="328.15" yc="387.825" w="10" h="26.2" o="310.747" />
+            </object>
+            <object id="15">
+                <box xc="391.3" yc="308.475" w="23.9133" h="25.9385" />
+                <representation type="RotatedRectangle" xc="391.3" yc="308.475" w="9.9" h="25.5" o="309.733" />
+            </object>
+            <object id="16">
+                <box xc="409.3" yc="318.975" w="22.3441" h="24.0669" />
+                <representation type="RotatedRectangle" xc="409.3" yc="318.975" w="10.7" h="22.3" o="308.972" />
+            </object>
+            <object id="17">
+                <box xc="448.425" yc="270.025" w="23.1085" h="25.0516" />
+                <representation type="RotatedRectangle" xc="448.425" yc="270.025" w="11.4" h="22.9" o="308.138" />
+            </object>
+            <object id="18">
+                <box xc="471.8" yc="206.875" w="26.1504" h="27.7525" />
+                <representation type="RotatedRectangle" xc="471.8" yc="206.875" w="10.6" h="27.6" o="311.179" />
+            </object>
+            <object id="19">
+                <box xc="515.725" yc="185.7" w="38.7259" h="42.3285" />
+                <representation type="RotatedRectangle" xc="515.725" yc="185.7" w="16" h="41.6" o="309.289" />
+            </object>
+            <object id="20">
+                <box xc="535.325" yc="128.425" w="24.5216" h="26.741" />
+                <representation type="RotatedRectangle" xc="535.325" yc="128.425" w="9.6" h="26.8" o="309.765" />
+            </object>
+            <object id="21">
+                <box xc="642.7" yc="24.125" w="23.7675" h="26.9715" />
+                <representation type="RotatedRectangle" xc="642.7" yc="24.125" w="10.7" h="25.6" o="306.254" />
+            </object>
+            <object id="23">
+                <box xc="670.925" yc="27.8" w="22.6496" h="23.7875" />
+                <representation type="RotatedRectangle" xc="670.925" yc="27.8" w="10" h="22.9" o="311.424" />
+            </object>
+            <object id="24">
+                <box xc="686.125" yc="10.175" w="18.6741" h="19.7463" />
+                <representation type="RotatedRectangle" xc="686.125" yc="10.175" w="9.8" h="17.5" o="309.349" />
+            </object>
+            <object id="25">
+                <box xc="91.15" yc="391.8" w="27.0163" h="23.767" />
+                <representation type="RotatedRectangle" xc="91.15" yc="391.8" w="10.3" h="26" o="143.415" />
+            </object>
+            <object id="26">
+                <box xc="134.8" yc="338.325" w="27.1875" h="25.5453" />
+                <representation type="RotatedRectangle" xc="134.8" yc="338.325" w="11.2" h="26.2" o="139.44" />
+            </object>
+            <object id="27">
+                <box xc="229.725" yc="287.075" w="25.2845" h="25.2025" />
+                <representation type="RotatedRectangle" xc="229.725" yc="287.075" w="10.5" h="25.2" o="135.226" />
+            </object>
+            <object id="28">
+                <box xc="323.175" yc="178.4" w="35.3797" h="35.3309" />
+                <representation type="RotatedRectangle" xc="323.175" yc="178.4" w="12.8" h="37.2" o="135.081" />
+            </object>
+            <object id="29">
+                <box xc="340.25" yc="189.375" w="25.669" h="26.4771" />
+                <representation type="RotatedRectangle" xc="340.25" yc="189.375" w="11" h="25.9" o="132.802" />
+            </object>
+            <object id="30">
+                <box xc="447.95" yc="73.85" w="27.689" h="29.8025" />
+                <representation type="RotatedRectangle" xc="447.95" yc="73.85" w="11.6" h="29.2" o="130.129" />
+            </object>
+            <object id="33">
+                <box xc="151.5" yc="22.525" w="28.1799" h="26.8754" />
+                <representation type="RotatedRectangle" xc="151.5" yc="22.525" w="11.8" h="27.2" o="221.566" />
+            </object>
+            <object id="37">
+                <box xc="33.1" yc="143.05" w="30.0867" h="29.7292" />
+                <representation type="RotatedRectangle" xc="33.1" yc="143.05" w="11.7" h="30.6" o="44.2335" />
+            </object>
+            <object id="38">
+                <box xc="53.275" yc="186.975" w="22.9013" h="21.6172" />
+                <representation type="RotatedRectangle" xc="53.275" yc="186.975" w="10.6" h="21" o="39.9914" />
+            </object>
+            <object id="39">
+                <box xc="82.825" yc="204.375" w="27.0401" h="23.3914" />
+                <representation type="RotatedRectangle" xc="82.825" yc="204.375" w="10.6" h="25.6" o="35.0958" />
+            </object>
+            <object id="40">
+                <box xc="118.775" yc="222.075" w="27.4218" h="20.7259" />
+                <representation type="RotatedRectangle" xc="118.775" yc="222.075" w="9.7" h="25.9" o="28.0062" />
+            </object>
+            <object id="41">
+                <box xc="149.95" yc="234" w="23.0578" h="17.8414" />
+                <representation type="RotatedRectangle" xc="149.95" yc="234" w="11.8" h="20.3" o="19.2816" />
+            </object>
+            <object id="42">
+                <box xc="618.5" yc="312.35" w="28.8114" h="22.0292" />
+                <representation type="RotatedRectangle" xc="618.5" yc="312.35" w="11.6" h="26.4" o="206.093" />
+            </object>
+            <object id="43">
+                <box xc="622.125" yc="335.2" w="28.6066" h="22.1213" />
+                <representation type="RotatedRectangle" xc="622.125" yc="335.2" w="11.4" h="26.3" o="207.075" />
+            </object>
+            <object id="44">
+                <box xc="665.525" yc="356.125" w="28.9112" h="22.7148" />
+                <representation type="RotatedRectangle" xc="665.525" yc="356.125" w="10.8" h="27.1" o="209.407" />
+            </object>
+            <object id="45">
+                <box xc="697.125" yc="373.4" w="26.9729" h="21.8308" />
+                <representation type="RotatedRectangle" xc="697.125" yc="373.4" w="10" h="25.5" o="211.433" />
+            </object>
+            <object id="46">
+                <box xc="653.75" yc="328.65" w="24.6862" h="19.9904" />
+                <representation type="RotatedRectangle" xc="653.75" yc="328.65" w="11.4" h="21.9" o="206.565" />
+            </object>
+            <object id="47">
+                <box xc="697.55" yc="349.4" w="24.9099" h="22.1099" />
+                <representation type="RotatedRectangle" xc="697.55" yc="349.4" w="11.4" h="22.4" o="214.631" />
+            </object>
+            <object id="48">
+                <box xc="656.75" yc="310.35" w="26.8963" h="23.1552" />
+                <representation type="RotatedRectangle" xc="656.75" yc="310.35" w="12.2" h="24.1" o="212.156" />
+            </object>
+            <object id="49">
+                <box xc="690.1" yc="326.025" w="26.1192" h="21.5524" />
+                <representation type="RotatedRectangle" xc="690.1" yc="326.025" w="11.5" h="23.5" o="209.389" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="2" file="C:/Training/StuttgartCrossroad01/MOS56.png" utc="2011-Sep-28 13:20:29.481000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.8004" lon="9.21234" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="247.15" yc="438.175" w="20.8528" h="24.3307" />
+                <representation type="RotatedRectangle" xc="247.15" yc="438.175" w="8.8" h="23.6" o="305.435" />
+            </object>
+            <object id="2">
+                <box xc="180.825" yc="487.325" w="35.0577" h="34.8027" />
+                <representation type="RotatedRectangle" xc="180.825" yc="487.325" w="12.1" h="37.3" o="315.41" />
+            </object>
+            <object id="3">
+                <box xc="30.75" yc="641.325" w="25.5656" h="22.5099" />
+                <representation type="RotatedRectangle" xc="30.75" yc="641.325" w="11.5" h="23.1" o="325.735" />
+            </object>
+            <object id="4">
+                <box xc="83.75" yc="589.4" w="26.1179" h="23.9028" />
+                <representation type="RotatedRectangle" xc="83.75" yc="589.4" w="10.9" h="24.7" o="321.517" />
+            </object>
+            <object id="5">
+                <box xc="77.65" yc="613.575" w="31.303" h="27.3563" />
+                <representation type="RotatedRectangle" xc="77.65" yc="613.575" w="12.9" h="29.2" o="324.858" />
+            </object>
+            <object id="9">
+                <box xc="124.075" yc="586.3" w="26.066" h="22.8136" />
+                <representation type="RotatedRectangle" xc="124.075" yc="586.3" w="10.2" h="24.8" o="324.063" />
+            </object>
+            <object id="10">
+                <box xc="152.875" yc="544.025" w="23.5806" h="22.4179" />
+                <representation type="RotatedRectangle" xc="152.875" yc="544.025" w="10.2" h="22.4" o="318.864" />
+            </object>
+            <object id="11">
+                <box xc="160.325" yc="561" w="28.3282" h="25.6909" />
+                <representation type="RotatedRectangle" xc="160.325" yc="561" w="11.8" h="26.7" o="322.19" />
+            </object>
+            <object id="12">
+                <box xc="236.15" yc="504.75" w="23.7066" h="23.23" />
+                <representation type="RotatedRectangle" xc="236.15" yc="504.75" w="10" h="23.2" o="316.463" />
+            </object>
+            <object id="13">
+                <box xc="351.575" yc="394.3" w="24.1782" h="24.9957" />
+                <representation type="RotatedRectangle" xc="351.575" yc="394.3" w="10.3" h="24.5" o="312.667" />
+            </object>
+            <object id="14">
+                <box xc="338.425" yc="375.925" w="25.2723" h="27.0497" />
+                <representation type="RotatedRectangle" xc="338.425" yc="375.925" w="10.1" h="27" o="310.735" />
+            </object>
+            <object id="15">
+                <box xc="404.3" yc="291.925" w="24.8694" h="27.085" />
+                <representation type="RotatedRectangle" xc="404.3" yc="291.925" w="10.1" h="26.8" o="309.617" />
+            </object>
+            <object id="16">
+                <box xc="418.375" yc="307.025" w="21.9672" h="23.9622" />
+                <representation type="RotatedRectangle" xc="418.375" yc="307.025" w="10.3" h="22.4" o="308.305" />
+            </object>
+            <object id="17">
+                <box xc="457.9" yc="257.8" w="22.6331" h="24.3572" />
+                <representation type="RotatedRectangle" xc="457.9" yc="257.8" w="10.7" h="22.7" o="309.169" />
+            </object>
+            <object id="18">
+                <box xc="486.1" yc="189.325" w="26.089" h="27.9199" />
+                <representation type="RotatedRectangle" xc="486.1" yc="189.325" w="10.6" h="27.7" o="310.658" />
+            </object>
+            <object id="19">
+                <box xc="526.475" yc="172.375" w="38.0837" h="41.4576" />
+                <representation type="RotatedRectangle" xc="526.475" yc="172.375" w="15.7" h="40.8" o="309.546" />
+            </object>
+            <object id="20">
+                <box xc="549.275" yc="110.9" w="25.6439" h="27.7731" />
+                <representation type="RotatedRectangle" xc="549.275" yc="110.9" w="9.8" h="28.1" o="310.281" />
+            </object>
+            <object id="21">
+                <box xc="652.975" yc="12.125" w="21.0715" h="22.5775" />
+                <representation type="RotatedRectangle" xc="652.975" yc="12.125" w="9.8" h="21.2" o="309.64" />
+            </object>
+            <object id="23">
+                <box xc="670.75" yc="28.675" w="22.7204" h="24.3179" />
+                <representation type="RotatedRectangle" xc="670.75" yc="28.675" w="10.5" h="22.9" o="309.773" />
+            </object>
+            <object id="24">
+                <box xc="686.05" yc="10.575" w="18.6192" h="19.5729" />
+                <representation type="RotatedRectangle" xc="686.05" yc="10.575" w="9.5" h="17.6" o="310.224" />
+            </object>
+            <object id="25">
+                <box xc="69.6" yc="407.3" w="26.6059" h="23.0909" />
+                <representation type="RotatedRectangle" xc="69.6" yc="407.3" w="10.8" h="24.9" o="145.153" />
+            </object>
+            <object id="26">
+                <box xc="114.625" yc="353" w="28.5791" h="25.3886" />
+                <representation type="RotatedRectangle" xc="114.625" yc="353" w="11.8" h="26.8" o="143.65" />
+            </object>
+            <object id="27">
+                <box xc="211.775" yc="301.8" w="26.5483" h="25.1004" />
+                <representation type="RotatedRectangle" xc="211.775" yc="301.8" w="10.5" h="26.1" o="138.763" />
+            </object>
+            <object id="28">
+                <box xc="309.75" yc="190.8" w="35.5927" h="35.5421" />
+                <representation type="RotatedRectangle" xc="309.75" yc="190.8" w="12.5" h="37.8" o="135.081" />
+            </object>
+            <object id="29">
+                <box xc="322.725" yc="206.9" w="26.1883" h="27.4621" />
+                <representation type="RotatedRectangle" xc="322.725" yc="206.9" w="11.2" h="26.8" o="131.69" />
+            </object>
+            <object id="30">
+                <box xc="436.85" yc="85.825" w="27.1387" h="28.7423" />
+                <representation type="RotatedRectangle" xc="436.85" yc="85.825" w="11.2" h="28.4" o="131.22" />
+            </object>
+            <object id="33">
+                <box xc="135.325" yc="8.925" w="18.8307" h="18.6266" />
+                <representation type="RotatedRectangle" xc="135.325" yc="8.925" w="11" h="15.5" o="223.162" />
+            </object>
+            <object id="37">
+                <box xc="40.775" yc="151.95" w="31.664" h="29.8525" />
+                <representation type="RotatedRectangle" xc="40.775" yc="151.95" w="12.4" h="31.2" o="41.0932" />
+            </object>
+            <object id="38">
+                <box xc="52.2" yc="188.35" w="22.5523" h="21.2095" />
+                <representation type="RotatedRectangle" xc="52.2" yc="188.35" w="10.8" h="20.3" o="39.2635" />
+            </object>
+            <object id="39">
+                <box xc="81.75" yc="204.775" w="26.523" h="23.274" />
+                <representation type="RotatedRectangle" xc="81.75" yc="204.775" w="10" h="25.6" o="36.5313" />
+            </object>
+            <object id="40">
+                <box xc="118.275" yc="222.325" w="28.9965" h="21.7102" />
+                <representation type="RotatedRectangle" xc="118.275" yc="222.325" w="11" h="26.9" o="26.0927" />
+            </object>
+            <object id="41">
+                <box xc="149.35" yc="234.35" w="23.6972" h="17.6789" />
+                <representation type="RotatedRectangle" xc="149.35" yc="234.35" w="11.9" h="21.1" o="17.4472" />
+            </object>
+            <object id="42">
+                <box xc="618" yc="313.175" w="28.6389" h="21.7272" />
+                <representation type="RotatedRectangle" xc="618" yc="313.175" w="11.4" h="26.3" o="205.852" />
+            </object>
+            <object id="43">
+                <box xc="621.925" yc="335.15" w="28.6817" h="22.2958" />
+                <representation type="RotatedRectangle" xc="621.925" yc="335.15" w="11.4" h="26.4" o="207.48" />
+            </object>
+            <object id="44">
+                <box xc="664.575" yc="356.775" w="30.0337" h="24.1481" />
+                <representation type="RotatedRectangle" xc="664.575" yc="356.775" w="11.2" h="28.3" o="210.914" />
+            </object>
+            <object id="45">
+                <box xc="696.025" yc="374.2" w="27.4264" h="22.4366" />
+                <representation type="RotatedRectangle" xc="696.025" yc="374.2" w="11.1" h="25.3" o="210.613" />
+            </object>
+            <object id="46">
+                <box xc="652.7" yc="329" w="24.8204" h="19.8563" />
+                <representation type="RotatedRectangle" xc="652.7" yc="329" w="11.1" h="22.2" o="206.565" />
+            </object>
+            <object id="47">
+                <box xc="696.975" yc="349.675" w="24.438" h="21.4509" />
+                <representation type="RotatedRectangle" xc="696.975" yc="349.675" w="10.7" h="22.3" o="214.509" />
+            </object>
+            <object id="48">
+                <box xc="656.15" yc="310.7" w="27.8041" h="23.3642" />
+                <representation type="RotatedRectangle" xc="656.15" yc="310.7" w="12.5" h="24.9" o="210.334" />
+            </object>
+            <object id="49">
+                <box xc="689.6" yc="326.675" w="26.5643" h="21.0739" />
+                <representation type="RotatedRectangle" xc="689.6" yc="326.675" w="11.6" h="23.9" o="206.601" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="3" file="C:/Training/StuttgartCrossroad01/MOS57.png" utc="2011-Sep-28 13:20:29.784000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.8002" lon="9.21254" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="248.4" yc="437.6" w="20.8688" h="24.4568" />
+                <representation type="RotatedRectangle" xc="248.4" yc="437.6" w="8.6" h="23.9" o="305.455" />
+            </object>
+            <object id="2">
+                <box xc="188.875" yc="479.025" w="34.4636" h="34.9671" />
+                <representation type="RotatedRectangle" xc="188.875" yc="479.025" w="12.2" h="36.9" o="314.174" />
+            </object>
+            <object id="3">
+                <box xc="33.3" yc="639.7" w="25.5434" h="22.2131" />
+                <representation type="RotatedRectangle" xc="33.3" yc="639.7" w="11.5" h="23" o="326.816" />
+            </object>
+            <object id="4">
+                <box xc="96.3" yc="581" w="26.4574" h="24.0559" />
+                <representation type="RotatedRectangle" xc="96.3" yc="581" w="9.5" h="26.4" o="320.767" />
+            </object>
+            <object id="5">
+                <box xc="81.725" yc="611.075" w="29.984" h="27.2642" />
+                <representation type="RotatedRectangle" xc="81.725" yc="611.075" w="12.7" h="28.1" o="322.174" />
+            </object>
+            <object id="9">
+                <box xc="127.875" yc="583.5" w="26.8354" h="23.0037" />
+                <representation type="RotatedRectangle" xc="127.875" yc="583.5" w="10.2" h="25.6" o="325.133" />
+            </object>
+            <object id="10">
+                <box xc="159.175" yc="539.525" w="23.7818" h="22.0817" />
+                <representation type="RotatedRectangle" xc="159.175" yc="539.525" w="10.4" h="22.2" o="320.847" />
+            </object>
+            <object id="11">
+                <box xc="166.4" yc="556.725" w="28.5154" h="25.3493" />
+                <representation type="RotatedRectangle" xc="166.4" yc="556.725" w="10.4" h="28" o="322.308" />
+            </object>
+            <object id="12">
+                <box xc="243.875" yc="498.125" w="24.1003" h="23.2244" />
+                <representation type="RotatedRectangle" xc="243.875" yc="498.125" w="10.1" h="23.4" o="317.669" />
+            </object>
+            <object id="13">
+                <box xc="362.05" yc="382.475" w="24.6894" h="25.7257" />
+                <representation type="RotatedRectangle" xc="362.05" yc="382.475" w="11" h="24.7" o="311.934" />
+            </object>
+            <object id="14">
+                <box xc="350.5" yc="362.05" w="26.0282" h="27.4746" />
+                <representation type="RotatedRectangle" xc="350.5" yc="362.05" w="10.4" h="27.5" o="311.571" />
+            </object>
+            <object id="15">
+                <box xc="419.425" yc="273.55" w="25.0375" h="27.3912" />
+                <representation type="RotatedRectangle" xc="419.425" yc="273.55" w="11.1" h="26.2" o="308.672" />
+            </object>
+            <object id="16">
+                <box xc="429.3" yc="294.475" w="23.5823" h="25.2836" />
+                <representation type="RotatedRectangle" xc="429.3" yc="294.475" w="10.8" h="23.9" o="309.731" />
+            </object>
+            <object id="17">
+                <box xc="469.275" yc="243.975" w="22.5268" h="24.3992" />
+                <representation type="RotatedRectangle" xc="469.275" yc="243.975" w="10.9" h="22.5" o="308.446" />
+            </object>
+            <object id="18">
+                <box xc="502.25" yc="169.7" w="26.3128" h="27.3781" />
+                <representation type="RotatedRectangle" xc="502.25" yc="169.7" w="10.2" h="27.8" o="312.547" />
+            </object>
+            <object id="19">
+                <box xc="538.6" yc="158.325" w="38.5528" h="41.9821" />
+                <representation type="RotatedRectangle" xc="538.6" yc="158.325" w="15.7" h="41.5" o="309.607" />
+            </object>
+            <object id="20">
+                <box xc="565.65" yc="91.925" w="24.8409" h="27.2457" />
+                <representation type="RotatedRectangle" xc="565.65" yc="91.925" w="9.6" h="27.4" o="309.518" />
+            </object>
+            <object id="23">
+                <box xc="672.2" yc="28.125" w="23.3345" h="24.4935" />
+                <representation type="RotatedRectangle" xc="672.2" yc="28.125" w="11" h="22.9" o="311.051" />
+            </object>
+            <object id="24">
+                <box xc="686.75" yc="10.5" w="18.8984" h="19.8261" />
+                <representation type="RotatedRectangle" xc="686.75" yc="10.5" w="10.2" h="17.3" o="309.699" />
+            </object>
+            <object id="25">
+                <box xc="50.35" yc="420.25" w="26.7644" h="23.4814" />
+                <representation type="RotatedRectangle" xc="50.35" yc="420.25" w="10.8" h="25.2" o="144.277" />
+            </object>
+            <object id="26">
+                <box xc="95.975" yc="365.6" w="28.8259" h="26.0745" />
+                <representation type="RotatedRectangle" xc="95.975" yc="365.6" w="11.4" h="27.7" o="141.855" />
+            </object>
+            <object id="27">
+                <box xc="195.45" yc="314.325" w="27.0086" h="25.455" />
+                <representation type="RotatedRectangle" xc="195.45" yc="314.325" w="11.2" h="26" o="139.257" />
+            </object>
+            <object id="28">
+                <box xc="298.225" yc="202.1" w="35.7445" h="35.2419" />
+                <representation type="RotatedRectangle" xc="298.225" yc="202.1" w="12.5" h="37.7" o="135.808" />
+            </object>
+            <object id="29">
+                <box xc="308.875" yc="220.6" w="26.6303" h="27.4931" />
+                <representation type="RotatedRectangle" xc="308.875" yc="220.6" w="11.3" h="27" o="132.773" />
+            </object>
+            <object id="30">
+                <box xc="426.725" yc="97.875" w="26.6814" h="28.5889" />
+                <representation type="RotatedRectangle" xc="426.725" yc="97.875" w="10.9" h="28.3" o="130.554" />
+            </object>
+            <object id="31">
+                <box xc="499.375" yc="17.675" w="25.7489" h="27.0393" />
+                <representation type="RotatedRectangle" xc="499.375" yc="17.675" w="11.4" h="26" o="131.417" />
+            </object>
+            <object id="37">
+                <box xc="49.375" yc="157.45" w="30.3036" h="29.0175" />
+                <representation type="RotatedRectangle" xc="49.375" yc="157.45" w="12" h="30" o="42.1039" />
+            </object>
+            <object id="38">
+                <box xc="53.325" yc="187.225" w="22.5348" h="21.6347" />
+                <representation type="RotatedRectangle" xc="53.325" yc="187.225" w="10.8" h="20.5" o="41.2377" />
+            </object>
+            <object id="39">
+                <box xc="82.75" yc="203.775" w="26.8934" h="22.8166" />
+                <representation type="RotatedRectangle" xc="82.75" yc="203.775" w="10.3" h="25.5" o="34.0674" />
+            </object>
+            <object id="40">
+                <box xc="119" yc="221.4" w="29.0182" h="22.5804" />
+                <representation type="RotatedRectangle" xc="119" yc="221.4" w="11.9" h="26.5" o="26.8325" />
+            </object>
+            <object id="41">
+                <box xc="150.25" yc="232.45" w="23.7383" h="18.4038" />
+                <representation type="RotatedRectangle" xc="150.25" yc="232.45" w="12" h="20.9" o="19.9235" />
+            </object>
+            <object id="42">
+                <box xc="619.5" yc="312.675" w="29.0174" h="22.5908" />
+                <representation type="RotatedRectangle" xc="619.5" yc="312.675" w="11.9" h="26.5" o="206.865" />
+            </object>
+            <object id="43">
+                <box xc="622.95" yc="334.6" w="29.112" h="23.5488" />
+                <representation type="RotatedRectangle" xc="622.95" yc="334.6" w="12.4" h="26.4" o="208.681" />
+            </object>
+            <object id="44">
+                <box xc="665.6" yc="356.6" w="29.6276" h="23.9876" />
+                <representation type="RotatedRectangle" xc="665.6" yc="356.6" w="11.4" h="27.7" o="210.838" />
+            </object>
+            <object id="45">
+                <box xc="697.6" yc="373.7" w="26.6648" h="22.4682" />
+                <representation type="RotatedRectangle" xc="697.6" yc="373.7" w="11" h="24.6" o="212.397" />
+            </object>
+            <object id="46">
+                <box xc="654.8" yc="328.625" w="24.5662" h="19.924" />
+                <representation type="RotatedRectangle" xc="654.8" yc="328.625" w="10.6" h="22.2" o="208.562" />
+            </object>
+            <object id="47">
+                <box xc="698.125" yc="349.35" w="24.3977" h="21.3076" />
+                <representation type="RotatedRectangle" xc="698.125" yc="349.35" w="10" h="22.8" o="215.171" />
+            </object>
+            <object id="48">
+                <box xc="657.425" yc="310.35" w="27.5151" h="23.2615" />
+                <representation type="RotatedRectangle" xc="657.425" yc="310.35" w="13.1" h="24.2" o="209.278" />
+            </object>
+            <object id="49">
+                <box xc="690.675" yc="326.525" w="26.9049" h="22.316" />
+                <representation type="RotatedRectangle" xc="690.675" yc="326.525" w="12.2" h="24" o="209.039" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="4" file="C:/Training/StuttgartCrossroad01/MOS58.png" utc="2011-Sep-28 13:20:30.084000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.8001" lon="9.21274" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="247.575" yc="436.45" w="21.1721" h="24.6446" />
+                <representation type="RotatedRectangle" xc="247.575" yc="436.45" w="9.4" h="23.5" o="304.971" />
+            </object>
+            <object id="2">
+                <box xc="194.425" yc="470.85" w="33.7421" h="35.2062" />
+                <representation type="RotatedRectangle" xc="194.425" yc="470.85" w="12.5" h="36.3" o="312.507" />
+            </object>
+            <object id="3">
+                <box xc="34.25" yc="637.375" w="25.4534" h="21.6178" />
+                <representation type="RotatedRectangle" xc="34.25" yc="637.375" w="11.2" h="23" o="328.288" />
+            </object>
+            <object id="4">
+                <box xc="105.6" yc="573.35" w="25.8115" h="24.4121" />
+                <representation type="RotatedRectangle" xc="105.6" yc="573.35" w="10.7" h="24.9" o="318.996" />
+            </object>
+            <object id="5">
+                <box xc="83.725" yc="607.725" w="30.1257" h="28.5092" />
+                <representation type="RotatedRectangle" xc="83.725" yc="607.725" w="13.8" h="27.8" o="319.683" />
+            </object>
+            <object id="9">
+                <box xc="130.15" yc="580.525" w="26.6065" h="24.2124" />
+                <representation type="RotatedRectangle" xc="130.15" yc="580.525" w="11.1" h="25.1" o="321.945" />
+            </object>
+            <object id="10">
+                <box xc="164.475" yc="533.8" w="23.8364" h="22.8957" />
+                <representation type="RotatedRectangle" xc="164.475" yc="533.8" w="10.8" h="22.3" o="318.316" />
+            </object>
+            <object id="11">
+                <box xc="171.325" yc="551.5" w="30.3338" h="27.0055" />
+                <representation type="RotatedRectangle" xc="171.325" yc="551.5" w="11.5" h="29.4" o="322.555" />
+            </object>
+            <object id="12">
+                <box xc="250.9" yc="490.2" w="24.6711" h="23.9405" />
+                <representation type="RotatedRectangle" xc="250.9" yc="490.2" w="10.6" h="23.8" o="317.243" />
+            </object>
+            <object id="13">
+                <box xc="370.975" yc="370.3" w="23.9194" h="25.6573" />
+                <representation type="RotatedRectangle" xc="370.975" yc="370.3" w="10.8" h="24.4" o="309.816" />
+            </object>
+            <object id="14">
+                <box xc="359.975" yc="348.85" w="26.6242" h="28.3854" />
+                <representation type="RotatedRectangle" xc="359.975" yc="348.85" w="10.9" h="28.1" o="310.848" />
+            </object>
+            <object id="15">
+                <box xc="432.925" yc="255.2" w="24.7386" h="26.8914" />
+                <representation type="RotatedRectangle" xc="432.925" yc="255.2" w="10.9" h="25.8" o="309.136" />
+            </object>
+            <object id="16">
+                <box xc="438.2" yc="281.475" w="23.9574" h="25.8543" />
+                <representation type="RotatedRectangle" xc="438.2" yc="281.475" w="11" h="24.4" o="309.255" />
+            </object>
+            <object id="17">
+                <box xc="479.3" yc="229.475" w="21.6096" h="23.2482" />
+                <representation type="RotatedRectangle" xc="479.3" yc="229.475" w="10.5" h="21.4" o="308.898" />
+            </object>
+            <object id="18">
+                <box xc="516.875" yc="149.775" w="26.7404" h="28.7974" />
+                <representation type="RotatedRectangle" xc="516.875" yc="149.775" w="10.7" h="28.7" o="310.365" />
+            </object>
+            <object id="19">
+                <box xc="549.1" yc="143" w="39.3655" h="42.4743" />
+                <representation type="RotatedRectangle" xc="549.1" yc="143" w="16.7" h="41.4" o="309.894" />
+            </object>
+            <object id="20">
+                <box xc="579.175" yc="72.75" w="25.4184" h="27.306" />
+                <representation type="RotatedRectangle" xc="579.175" yc="72.75" w="10.3" h="27.1" o="310.443" />
+            </object>
+            <object id="23">
+                <box xc="671.775" yc="27.325" w="23.0993" h="24.0639" />
+                <representation type="RotatedRectangle" xc="671.775" yc="27.325" w="10.5" h="22.9" o="311.847" />
+            </object>
+            <object id="24">
+                <box xc="685.875" yc="10.125" w="18.305" h="19.0429" />
+                <representation type="RotatedRectangle" xc="685.875" yc="10.125" w="10.1" h="16.4" o="310.249" />
+            </object>
+            <object id="25">
+                <box xc="28.1" yc="432.55" w="26.742" h="24.1804" />
+                <representation type="RotatedRectangle" xc="28.1" yc="432.55" w="11" h="25.3" o="142.277" />
+            </object>
+            <object id="26">
+                <box xc="74.6" yc="378.55" w="28.6888" h="26.2808" />
+                <representation type="RotatedRectangle" xc="74.6" yc="378.55" w="11.7" h="27.4" o="141.226" />
+            </object>
+            <object id="27">
+                <box xc="176.375" yc="327.45" w="26.2838" h="25.0879" />
+                <representation type="RotatedRectangle" xc="176.375" yc="327.45" w="11.6" h="24.8" o="138.673" />
+            </object>
+            <object id="28">
+                <box xc="284.2" yc="213.075" w="35.7335" h="34.8128" />
+                <representation type="RotatedRectangle" xc="284.2" yc="213.075" w="12.2" h="37.7" o="136.463" />
+            </object>
+            <object id="29">
+                <box xc="291.225" yc="234.85" w="27.6977" h="27.7394" />
+                <representation type="RotatedRectangle" xc="291.225" yc="234.85" w="11.4" h="27.8" o="134.897" />
+            </object>
+            <object id="30">
+                <box xc="415.475" yc="107.975" w="28.4449" h="30.8473" />
+                <representation type="RotatedRectangle" xc="415.475" yc="107.975" w="11.7" h="30.4" o="129.788" />
+            </object>
+            <object id="31">
+                <box xc="489.375" yc="26.075" w="25.8908" h="27.5429" />
+                <representation type="RotatedRectangle" xc="489.375" yc="26.075" w="11.5" h="26.4" o="130.503" />
+            </object>
+            <object id="37">
+                <box xc="55.9" yc="161.775" w="31.1029" h="29.7706" />
+                <representation type="RotatedRectangle" xc="55.9" yc="161.775" w="12.3" h="30.8" o="42.0812" />
+            </object>
+            <object id="38">
+                <box xc="52.65" yc="185.875" w="22.4307" h="21.935" />
+                <representation type="RotatedRectangle" xc="52.65" yc="185.875" w="11.6" h="19.8" o="42.5497" />
+            </object>
+            <object id="39">
+                <box xc="81.55" yc="202.55" w="26.3581" h="22.6" />
+                <representation type="RotatedRectangle" xc="81.55" yc="202.55" w="9.5" h="25.6" o="35.4998" />
+            </object>
+            <object id="40">
+                <box xc="118.675" yc="220.025" w="28.7142" h="22.8618" />
+                <representation type="RotatedRectangle" xc="118.675" yc="220.025" w="11.9" h="26.2" o="28.1786" />
+            </object>
+            <object id="41">
+                <box xc="150.05" yc="231.325" w="24.437" h="18.9337" />
+                <representation type="RotatedRectangle" xc="150.05" yc="231.325" w="12.6" h="21.5" o="19.0721" />
+            </object>
+            <object id="42">
+                <box xc="618.375" yc="311.975" w="29.5387" h="22.2527" />
+                <representation type="RotatedRectangle" xc="618.375" yc="311.975" w="10.9" h="27.6" o="207.031" />
+            </object>
+            <object id="43">
+                <box xc="622.65" yc="333.4" w="28.8001" h="23.7668" />
+                <representation type="RotatedRectangle" xc="622.65" yc="333.4" w="12.7" h="25.9" o="209.358" />
+            </object>
+            <object id="44">
+                <box xc="664.4" yc="355.95" w="29.7894" h="23.58" />
+                <representation type="RotatedRectangle" xc="664.4" yc="355.95" w="10.8" h="28.2" o="210.384" />
+            </object>
+            <object id="45">
+                <box xc="697.525" yc="373.325" w="27.1703" h="21.884" />
+                <representation type="RotatedRectangle" xc="697.525" yc="373.325" w="10.7" h="25.2" o="210.061" />
+            </object>
+            <object id="46">
+                <box xc="653.475" yc="327.2" w="23.2096" h="18.7536" />
+                <representation type="RotatedRectangle" xc="653.475" yc="327.2" w="10.7" h="20.6" o="206.442" />
+            </object>
+            <object id="47">
+                <box xc="697.125" yc="348.95" w="24.6862" h="21.5603" />
+                <representation type="RotatedRectangle" xc="697.125" yc="348.95" w="10.2" h="23" o="215.056" />
+            </object>
+            <object id="48">
+                <box xc="656.725" yc="309.65" w="27.7289" h="22.8989" />
+                <representation type="RotatedRectangle" xc="656.725" yc="309.65" w="12.8" h="24.6" o="208.176" />
+            </object>
+            <object id="49">
+                <box xc="690.65" yc="325.5" w="27.068" h="23.4854" />
+                <representation type="RotatedRectangle" xc="690.65" yc="325.5" w="12.4" h="24.2" o="212.603" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="5" file="C:/Training/StuttgartCrossroad01/MOS59.png" utc="2011-Sep-28 13:20:30.384000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.8" lon="9.21294" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="248.275" yc="436.9" w="20.784" h="24.7583" />
+                <representation type="RotatedRectangle" xc="248.275" yc="436.9" w="9" h="23.8" o="304.054" />
+            </object>
+            <object id="2">
+                <box xc="201.325" yc="464.775" w="33.3625" h="35.5105" />
+                <representation type="RotatedRectangle" xc="201.325" yc="464.775" w="12.5" h="36.3" o="311.341" />
+            </object>
+            <object id="3">
+                <box xc="38.125" yc="635.6" w="25.5532" h="22.1439" />
+                <representation type="RotatedRectangle" xc="38.125" yc="635.6" w="11.9" h="22.7" o="327.898" />
+            </object>
+            <object id="4">
+                <box xc="116.875" yc="567.025" w="27.6588" h="24.4652" />
+                <representation type="RotatedRectangle" xc="116.875" yc="567.025" w="11.3" h="26" o="323.837" />
+            </object>
+            <object id="5">
+                <box xc="88.45" yc="605.8" w="30.0096" h="27.9353" />
+                <representation type="RotatedRectangle" xc="88.45" yc="605.8" w="13.6" h="27.6" o="321.014" />
+            </object>
+            <object id="9">
+                <box xc="135.225" yc="578.125" w="25.8153" h="22.6814" />
+                <representation type="RotatedRectangle" xc="135.225" yc="578.125" w="10.1" h="24.6" o="323.791" />
+            </object>
+            <object id="10">
+                <box xc="173.175" yc="528.45" w="23.2686" h="22.1331" />
+                <representation type="RotatedRectangle" xc="173.175" yc="528.45" w="10.9" h="21.3" o="319.428" />
+            </object>
+            <object id="11">
+                <box xc="178.925" yc="547.725" w="29.8545" h="25.6047" />
+                <representation type="RotatedRectangle" xc="178.925" yc="547.725" w="11.1" h="28.7" o="324.831" />
+            </object>
+            <object id="12">
+                <box xc="261.175" yc="482.525" w="24.2829" h="24.3656" />
+                <representation type="RotatedRectangle" xc="261.175" yc="482.525" w="10.1" h="24.3" o="314.764" />
+            </object>
+            <object id="13">
+                <box xc="381.425" yc="358.65" w="23.1419" h="25.1078" />
+                <representation type="RotatedRectangle" xc="381.425" yc="358.65" w="10.4" h="23.9" o="309.09" />
+            </object>
+            <object id="14">
+                <box xc="373.425" yc="333.875" w="26.0409" h="29.0597" />
+                <representation type="RotatedRectangle" xc="373.425" yc="333.875" w="9.9" h="29.3" o="308.683" />
+            </object>
+            <object id="15">
+                <box xc="449" yc="237.4" w="24.7819" h="26.6409" />
+                <representation type="RotatedRectangle" xc="449" yc="237.4" w="10.7" h="25.8" o="310.006" />
+            </object>
+            <object id="16">
+                <box xc="449.8" yc="269.225" w="23.0486" h="25.0131" />
+                <representation type="RotatedRectangle" xc="449.8" yc="269.225" w="10.9" h="23.3" o="308.568" />
+            </object>
+            <object id="17">
+                <box xc="491.4" yc="216.55" w="22.4427" h="23.7874" />
+                <representation type="RotatedRectangle" xc="491.4" yc="216.55" w="10.6" h="22.2" o="310.298" />
+            </object>
+            <object id="18">
+                <box xc="533.025" yc="131.025" w="26.8136" h="27.6039" />
+                <representation type="RotatedRectangle" xc="533.025" yc="131.025" w="10.8" h="27.7" o="313.105" />
+            </object>
+            <object id="19">
+                <box xc="561.975" yc="128.85" w="38.0827" h="41.4385" />
+                <representation type="RotatedRectangle" xc="561.975" yc="128.85" w="16.1" h="40.4" o="309.396" />
+            </object>
+            <object id="20">
+                <box xc="595.2" yc="55.5" w="26.1369" h="27.8939" />
+                <representation type="RotatedRectangle" xc="595.2" yc="55.5" w="10.3" h="28" o="310.975" />
+            </object>
+            <object id="23">
+                <box xc="672.85" yc="28.225" w="22.8624" h="24.2429" />
+                <representation type="RotatedRectangle" xc="672.85" yc="28.225" w="10.1" h="23.3" o="310.759" />
+            </object>
+            <object id="24">
+                <box xc="687.525" yc="10.55" w="18.5433" h="19.3642" />
+                <representation type="RotatedRectangle" xc="687.525" yc="10.55" w="10" h="16.9" o="310.174" />
+            </object>
+            <object id="25">
+                <box xc="10.6" yc="445.475" w="21.3925" h="19.6088" />
+                <representation type="RotatedRectangle" xc="10.6" yc="445.475" w="10.9" h="18.5" o="144.553" />
+            </object>
+            <object id="26">
+                <box xc="55.475" yc="392.6" w="28.5377" h="25.3196" />
+                <representation type="RotatedRectangle" xc="55.475" yc="392.6" w="11.5" h="27" o="143.442" />
+            </object>
+            <object id="27">
+                <box xc="158.225" yc="342.3" w="26.9815" h="25.2841" />
+                <representation type="RotatedRectangle" xc="158.225" yc="342.3" w="11.7" h="25.4" o="140.026" />
+            </object>
+            <object id="28">
+                <box xc="271.775" yc="225.425" w="35.2077" h="34.2013" />
+                <representation type="RotatedRectangle" xc="271.775" yc="225.425" w="12.2" h="36.9" o="136.651" />
+            </object>
+            <object id="29">
+                <box xc="274.525" yc="251" w="28.8291" h="28.8707" />
+                <representation type="RotatedRectangle" xc="274.525" yc="251" w="11.9" h="28.9" o="134.901" />
+            </object>
+            <object id="30">
+                <box xc="404.375" yc="121.45" w="27.8116" h="29.4661" />
+                <representation type="RotatedRectangle" xc="404.375" yc="121.45" w="11.9" h="28.7" o="131.007" />
+            </object>
+            <object id="31">
+                <box xc="483.925" yc="33.3" w="26.6714" h="28.3512" />
+                <representation type="RotatedRectangle" xc="483.925" yc="33.3" w="10.9" h="28.1" o="131.04" />
+            </object>
+            <object id="37">
+                <box xc="63.5" yc="167.875" w="30.9032" h="29.2154" />
+                <representation type="RotatedRectangle" xc="63.5" yc="167.875" w="12.1" h="30.5" o="41.281" />
+            </object>
+            <object id="38">
+                <box xc="52.825" yc="185.4" w="22.8664" h="22.6658" />
+                <representation type="RotatedRectangle" xc="52.825" yc="185.4" w="11.5" h="20.7" o="44.1167" />
+            </object>
+            <object id="39">
+                <box xc="82.75" yc="203.05" w="26.239" h="21.4683" />
+                <representation type="RotatedRectangle" xc="82.75" yc="203.05" w="9.2" h="25.3" o="32.9052" />
+            </object>
+            <object id="40">
+                <box xc="120.35" yc="220.05" w="28.7067" h="23.172" />
+                <representation type="RotatedRectangle" xc="120.35" yc="220.05" w="11.5" h="26.5" o="29.876" />
+            </object>
+            <object id="41">
+                <box xc="151.025" yc="231.225" w="24.8555" h="19.9552" />
+                <representation type="RotatedRectangle" xc="151.025" yc="231.225" w="13.1" h="21.6" o="20.9427" />
+            </object>
+            <object id="42">
+                <box xc="619.3" yc="311.925" w="29.7341" h="23.1013" />
+                <representation type="RotatedRectangle" xc="619.3" yc="311.925" w="11.6" h="27.5" o="207.844" />
+            </object>
+            <object id="43">
+                <box xc="623.875" yc="333.875" w="28.2645" h="22.2953" />
+                <representation type="RotatedRectangle" xc="623.875" yc="333.875" w="12.2" h="25.5" o="206.497" />
+            </object>
+            <object id="44">
+                <box xc="666.2" yc="356.35" w="29.1698" h="23.288" />
+                <representation type="RotatedRectangle" xc="666.2" yc="356.35" w="10.8" h="27.5" o="210.579" />
+            </object>
+            <object id="45">
+                <box xc="698.3" yc="373.475" w="26.67" h="21.5645" />
+                <representation type="RotatedRectangle" xc="698.3" yc="373.475" w="10.3" h="24.9" o="210.684" />
+            </object>
+            <object id="46">
+                <box xc="654.475" yc="328.7" w="23.2817" h="19.1482" />
+                <representation type="RotatedRectangle" xc="654.475" yc="328.7" w="10" h="21.1" o="209.733" />
+            </object>
+            <object id="47">
+                <box xc="698.175" yc="349.5" w="24.2542" h="20.6094" />
+                <representation type="RotatedRectangle" xc="698.175" yc="349.5" w="9.3" h="23" o="214.157" />
+            </object>
+            <object id="48">
+                <box xc="657" yc="309.775" w="27.2262" h="21.5164" />
+                <representation type="RotatedRectangle" xc="657" yc="309.775" w="12.3" h="24.3" o="205.339" />
+            </object>
+            <object id="49">
+                <box xc="690.925" yc="325.925" w="25.7176" h="21.7942" />
+                <representation type="RotatedRectangle" xc="690.925" yc="325.925" w="11.5" h="23.1" o="211.163" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="6" file="C:/Training/StuttgartCrossroad01/MOS60.png" utc="2011-Sep-28 13:20:30.685000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.7998" lon="9.21314" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="247.95" yc="436.25" w="21.0504" h="24.3571" />
+                <representation type="RotatedRectangle" xc="247.95" yc="436.25" w="8.7" h="23.8" o="306.092" />
+            </object>
+            <object id="2">
+                <box xc="205.775" yc="457.85" w="33.0002" h="35.4061" />
+                <representation type="RotatedRectangle" xc="205.775" yc="457.85" w="12.6" h="35.9" o="310.813" />
+            </object>
+            <object id="3">
+                <box xc="40.475" yc="634.125" w="23.6782" h="20.1234" />
+                <representation type="RotatedRectangle" xc="40.475" yc="634.125" w="10.7" h="21.2" o="328.851" />
+            </object>
+            <object id="4">
+                <box xc="125.75" yc="561.075" w="26.696" h="23.9084" />
+                <representation type="RotatedRectangle" xc="125.75" yc="561.075" w="10.6" h="25.5" o="322.602" />
+            </object>
+            <object id="5">
+                <box xc="91.725" yc="603.45" w="31.3966" h="28.6049" />
+                <representation type="RotatedRectangle" xc="91.725" yc="603.45" w="12.6" h="30.1" o="321.477" />
+            </object>
+            <object id="6">
+                <box xc="11.6" yc="631.95" w="24.3379" h="20.5588" />
+                <representation type="RotatedRectangle" xc="11.6" yc="631.95" w="8.9" h="23.4" o="325.62" />
+            </object>
+            <object id="9">
+                <box xc="139.475" yc="574.3" w="25.8263" h="22.3416" />
+                <representation type="RotatedRectangle" xc="139.475" yc="574.3" w="10.3" h="24.3" o="325.137" />
+            </object>
+            <object id="10">
+                <box xc="180.275" yc="521.75" w="24.5645" h="22.2147" />
+                <representation type="RotatedRectangle" xc="180.275" yc="521.75" w="11.5" h="22" o="324.105" />
+            </object>
+            <object id="11">
+                <box xc="186.725" yc="541.3" w="29.9011" h="26.3968" />
+                <representation type="RotatedRectangle" xc="186.725" yc="541.3" w="11.2" h="29" o="323.002" />
+            </object>
+            <object id="12">
+                <box xc="270.45" yc="473.2" w="23.6821" h="23.9717" />
+                <representation type="RotatedRectangle" xc="270.45" yc="473.2" w="9.9" h="23.8" o="314.156" />
+            </object>
+            <object id="13">
+                <box xc="390.625" yc="346.85" w="24.0566" h="25.6879" />
+                <representation type="RotatedRectangle" xc="390.625" yc="346.85" w="10.8" h="24.5" o="310.17" />
+            </object>
+            <object id="14">
+                <box xc="384.725" yc="318.575" w="25.6604" h="28.1206" />
+                <representation type="RotatedRectangle" xc="384.725" yc="318.575" w="9.9" h="28.3" o="309.575" />
+            </object>
+            <object id="15">
+                <box xc="463.075" yc="218.875" w="24.2151" h="26.7561" />
+                <representation type="RotatedRectangle" xc="463.075" yc="218.875" w="10.6" h="25.7" o="308.166" />
+            </object>
+            <object id="16">
+                <box xc="459.5" yc="256.025" w="22.8099" h="24.3885" />
+                <representation type="RotatedRectangle" xc="459.5" yc="256.025" w="10.3" h="23.2" o="310.036" />
+            </object>
+            <object id="17">
+                <box xc="502.35" yc="202.9" w="22.4012" h="23.688" />
+                <representation type="RotatedRectangle" xc="502.35" yc="202.9" w="10.8" h="21.9" o="310.298" />
+            </object>
+            <object id="18">
+                <box xc="547.875" yc="111.925" w="26.9661" h="28.9972" />
+                <representation type="RotatedRectangle" xc="547.875" yc="111.925" w="10.9" h="28.8" o="310.398" />
+            </object>
+            <object id="19">
+                <box xc="572.3" yc="114.775" w="38.8857" h="42.8193" />
+                <representation type="RotatedRectangle" xc="572.3" yc="114.775" w="15.9" h="42.2" o="308.929" />
+            </object>
+            <object id="20">
+                <box xc="609.55" yc="37.375" w="25.5747" h="27.1939" />
+                <representation type="RotatedRectangle" xc="609.55" yc="37.375" w="10.3" h="27.1" o="311.092" />
+            </object>
+            <object id="23">
+                <box xc="672.4" yc="28.25" w="23.5101" h="24.2441" />
+                <representation type="RotatedRectangle" xc="672.4" yc="28.25" w="11" h="22.8" o="312.479" />
+            </object>
+            <object id="24">
+                <box xc="687.4" yc="10.475" w="18.8396" h="19.6267" />
+                <representation type="RotatedRectangle" xc="687.4" yc="10.475" w="10.4" h="16.9" o="310.088" />
+            </object>
+            <object id="26">
+                <box xc="35.475" yc="405.2" w="30.7436" h="27.801" />
+                <representation type="RotatedRectangle" xc="35.475" yc="405.2" w="12.2" h="29.5" o="141.908" />
+            </object>
+            <object id="27">
+                <box xc="138.475" yc="356.775" w="27.2294" h="25.6203" />
+                <representation type="RotatedRectangle" xc="138.475" yc="356.775" w="11.9" h="25.6" o="139.764" />
+            </object>
+            <object id="28">
+                <box xc="257.225" yc="237.8" w="36.1598" h="35.3815" />
+                <representation type="RotatedRectangle" xc="257.225" yc="237.8" w="13" h="37.6" o="136.282" />
+            </object>
+            <object id="29">
+                <box xc="255.875" yc="265.875" w="29.4232" h="28.5138" />
+                <representation type="RotatedRectangle" xc="255.875" yc="265.875" w="12.4" h="28.6" o="137.275" />
+            </object>
+            <object id="30">
+                <box xc="392.125" yc="133.225" w="27.5459" h="29.1575" />
+                <representation type="RotatedRectangle" xc="392.125" yc="133.225" w="12.2" h="28" o="130.864" />
+            </object>
+            <object id="31">
+                <box xc="475.4" yc="42.125" w="25.5042" h="26.6205" />
+                <representation type="RotatedRectangle" xc="475.4" yc="42.125" w="10.2" h="26.7" o="132.258" />
+            </object>
+            <object id="37">
+                <box xc="69.225" yc="172.2" w="31.532" h="29.1338" />
+                <representation type="RotatedRectangle" xc="69.225" yc="172.2" w="12.8" h="30.3" o="39.4392" />
+            </object>
+            <object id="38">
+                <box xc="52.775" yc="185.05" w="22.6833" h="22.2602" />
+                <representation type="RotatedRectangle" xc="52.775" yc="185.05" w="11.7" h="20.1" o="42.9591" />
+            </object>
+            <object id="39">
+                <box xc="82.3" yc="202.25" w="26.5359" h="23.4481" />
+                <representation type="RotatedRectangle" xc="82.3" yc="202.25" w="10.1" h="25.6" o="36.9021" />
+            </object>
+            <object id="40">
+                <box xc="119.3" yc="220.1" w="28.9007" h="23.3457" />
+                <representation type="RotatedRectangle" xc="119.3" yc="220.1" w="12" h="26.4" o="29.1706" />
+            </object>
+            <object id="41">
+                <box xc="149.8" yc="230.9" w="25.271" h="20.2577" />
+                <representation type="RotatedRectangle" xc="149.8" yc="230.9" w="12.6" h="22.1" o="23.0901" />
+            </object>
+            <object id="42">
+                <box xc="618.45" yc="311.775" w="29.1359" h="21.674" />
+                <representation type="RotatedRectangle" xc="618.45" yc="311.775" w="10.9" h="27.1" o="205.992" />
+            </object>
+            <object id="43">
+                <box xc="623.65" yc="333.875" w="29.088" h="23.1611" />
+                <representation type="RotatedRectangle" xc="623.65" yc="333.875" w="11.8" h="26.7" o="208.664" />
+            </object>
+            <object id="44">
+                <box xc="665.5" yc="355.775" w="29.2878" h="23.0344" />
+                <representation type="RotatedRectangle" xc="665.5" yc="355.775" w="10.6" h="27.7" o="210.014" />
+            </object>
+            <object id="45">
+                <box xc="697.775" yc="373.075" w="26.8185" h="22.1455" />
+                <representation type="RotatedRectangle" xc="697.775" yc="373.075" w="10.7" h="24.9" o="211.544" />
+            </object>
+            <object id="46">
+                <box xc="654.5" yc="327.975" w="24.1477" h="19.2762" />
+                <representation type="RotatedRectangle" xc="654.5" yc="327.975" w="10.6" h="21.7" o="206.921" />
+            </object>
+            <object id="47">
+                <box xc="697.775" yc="349.375" w="24.3303" h="21.3173" />
+                <representation type="RotatedRectangle" xc="697.775" yc="349.375" w="9.7" h="23" o="215.782" />
+            </object>
+            <object id="48">
+                <box xc="657.125" yc="309.275" w="26.7015" h="21.8892" />
+                <representation type="RotatedRectangle" xc="657.125" yc="309.275" w="12.3" h="23.7" o="207.633" />
+            </object>
+            <object id="49">
+                <box xc="691.375" yc="325.425" w="26.2205" h="21.9468" />
+                <representation type="RotatedRectangle" xc="691.375" yc="325.425" w="11.9" h="23.4" o="209.765" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="7" file="C:/Training/StuttgartCrossroad01/MOS61.png" utc="2011-Sep-28 13:20:30.984000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.7997" lon="9.21334" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="246.725" yc="436.525" w="21.2655" h="24.8724" />
+                <representation type="RotatedRectangle" xc="246.725" yc="436.525" w="9" h="24.1" o="305.276" />
+            </object>
+            <object id="2">
+                <box xc="210.325" yc="451.45" w="32.2574" h="35.4558" />
+                <representation type="RotatedRectangle" xc="210.325" yc="451.45" w="12.2" h="35.9" o="309.524" />
+            </object>
+            <object id="3">
+                <box xc="41.975" yc="631.6" w="26.3306" h="22.9066" />
+                <representation type="RotatedRectangle" xc="41.975" yc="631.6" w="12" h="23.6" o="327.047" />
+            </object>
+            <object id="4">
+                <box xc="134.3" yc="554.3" w="27.9049" h="24.8339" />
+                <representation type="RotatedRectangle" xc="134.3" yc="554.3" w="10.3" h="27.3" o="322.339" />
+            </object>
+            <object id="5">
+                <box xc="94.525" yc="601.2" w="31.0564" h="28.0066" />
+                <representation type="RotatedRectangle" xc="94.525" yc="601.2" w="12.5" h="29.6" o="322.245" />
+            </object>
+            <object id="6">
+                <box xc="28.825" yc="620.4" w="25.6674" h="22.1232" />
+                <representation type="RotatedRectangle" xc="28.825" yc="620.4" w="10.5" h="23.9" o="325.779" />
+            </object>
+            <object id="7">
+                <box xc="22.05" yc="666" w="26.5119" h="21.6876" />
+                <representation type="RotatedRectangle" xc="22.05" yc="666" w="11.1" h="24.2" o="330.094" />
+            </object>
+            <object id="9">
+                <box xc="143.9" yc="570.875" w="25.7906" h="22.8948" />
+                <representation type="RotatedRectangle" xc="143.9" yc="570.875" w="10.4" h="24.4" o="323.41" />
+            </object>
+            <object id="10">
+                <box xc="188.475" yc="514.55" w="23.7829" h="22.1215" />
+                <representation type="RotatedRectangle" xc="188.475" yc="514.55" w="11.5" h="21.2" o="321.956" />
+            </object>
+            <object id="11">
+                <box xc="193.3" yc="535.825" w="31.4028" h="27.9187" />
+                <representation type="RotatedRectangle" xc="193.3" yc="535.825" w="11.6" h="30.7" o="322.411" />
+            </object>
+            <object id="12">
+                <box xc="279.425" yc="464.075" w="22.7405" h="23.3385" />
+                <representation type="RotatedRectangle" xc="279.425" yc="464.075" w="9.8" h="22.8" o="313.136" />
+            </object>
+            <object id="13">
+                <box xc="398.55" yc="335.275" w="23.0912" h="26.1079" />
+                <representation type="RotatedRectangle" xc="398.55" yc="335.275" w="10.6" h="24.6" o="306.236" />
+            </object>
+            <object id="14">
+                <box xc="396.325" yc="303.475" w="25.1292" h="28.3065" />
+                <representation type="RotatedRectangle" xc="396.325" yc="303.475" w="10.3" h="27.8" o="307.624" />
+            </object>
+            <object id="15">
+                <box xc="478.375" yc="199.65" w="24.6636" h="27.1392" />
+                <representation type="RotatedRectangle" xc="478.375" yc="199.65" w="11.2" h="25.7" o="308.066" />
+            </object>
+            <object id="16">
+                <box xc="469.025" yc="243.625" w="23.6979" h="25.7877" />
+                <representation type="RotatedRectangle" xc="469.025" yc="243.625" w="10.8" h="24.4" o="308.762" />
+            </object>
+            <object id="17">
+                <box xc="512.9" yc="188.35" w="22.4796" h="24.0637" />
+                <representation type="RotatedRectangle" xc="512.9" yc="188.35" w="11.3" h="21.8" o="308.876" />
+            </object>
+            <object id="18">
+                <box xc="563.325" yc="92.7" w="26.2958" h="28.1232" />
+                <representation type="RotatedRectangle" xc="563.325" yc="92.7" w="11.1" h="27.5" o="310.481" />
+            </object>
+            <object id="19">
+                <box xc="582.375" yc="100.4" w="40.0637" h="43.7729" />
+                <representation type="RotatedRectangle" xc="582.375" yc="100.4" w="17.1" h="42.5" o="309.073" />
+            </object>
+            <object id="20">
+                <box xc="624.05" yc="18.75" w="25.8355" h="28.0002" />
+                <representation type="RotatedRectangle" xc="624.05" yc="18.75" w="9.9" h="28.3" o="310.228" />
+            </object>
+            <object id="23">
+                <box xc="671.75" yc="28.625" w="23.1751" h="24.1297" />
+                <representation type="RotatedRectangle" xc="671.75" yc="28.625" w="10.6" h="22.9" o="311.854" />
+            </object>
+            <object id="24">
+                <box xc="687.125" yc="10.025" w="18.9454" h="19.7025" />
+                <representation type="RotatedRectangle" xc="687.125" yc="10.025" w="10" h="17.4" o="310.851" />
+            </object>
+            <object id="26">
+                <box xc="14.375" yc="418.525" w="28.711" h="25.5159" />
+                <representation type="RotatedRectangle" xc="14.375" yc="418.525" w="11" h="27.7" o="142.775" />
+            </object>
+            <object id="27">
+                <box xc="117.15" yc="371.275" w="28.1592" h="25.59" />
+                <representation type="RotatedRectangle" xc="117.15" yc="371.275" w="11.8" h="26.5" o="142.099" />
+            </object>
+            <object id="28">
+                <box xc="241.85" yc="250.375" w="36.3961" h="34.9545" />
+                <representation type="RotatedRectangle" xc="241.85" yc="250.375" w="13.5" h="37" o="137.486" />
+            </object>
+            <object id="29">
+                <box xc="236.225" yc="281.275" w="29.4953" h="28.5834" />
+                <representation type="RotatedRectangle" xc="236.225" yc="281.275" w="12.4" h="28.7" o="137.267" />
+            </object>
+            <object id="30">
+                <box xc="379.425" yc="146.3" w="26.8841" h="28.6771" />
+                <representation type="RotatedRectangle" xc="379.425" yc="146.3" w="11.3" h="28.1" o="130.672" />
+            </object>
+            <object id="31">
+                <box xc="465.7" yc="51.225" w="25.6983" h="26.5853" />
+                <representation type="RotatedRectangle" xc="465.7" yc="51.225" w="10.7" h="26.3" o="132.696" />
+            </object>
+            <object id="37">
+                <box xc="74.875" yc="176.6" w="32.2422" h="29.4896" />
+                <representation type="RotatedRectangle" xc="74.875" yc="176.6" w="12.8" h="31.1" o="38.8943" />
+            </object>
+            <object id="38">
+                <box xc="51.525" yc="184.775" w="23.0167" h="22.3211" />
+                <representation type="RotatedRectangle" xc="51.525" yc="184.775" w="11.2" h="20.9" o="42.0934" />
+            </object>
+            <object id="39">
+                <box xc="81.275" yc="202.075" w="26.8414" h="23.208" />
+                <representation type="RotatedRectangle" xc="81.275" yc="202.075" w="10.3" h="25.6" o="35.333" />
+            </object>
+            <object id="40">
+                <box xc="118.45" yc="220.05" w="30.3287" h="23.8388" />
+                <representation type="RotatedRectangle" xc="118.45" yc="220.05" w="12.3" h="27.8" o="27.7785" />
+            </object>
+            <object id="41">
+                <box xc="149.175" yc="232.775" w="24.229" h="17.7176" />
+                <representation type="RotatedRectangle" xc="149.175" yc="232.775" w="11.9" h="21.7" o="16.9772" />
+            </object>
+            <object id="42">
+                <box xc="617.5" yc="311.725" w="29.6801" h="22.1966" />
+                <representation type="RotatedRectangle" xc="617.5" yc="311.725" w="10.8" h="27.8" o="206.864" />
+            </object>
+            <object id="43">
+                <box xc="622.85" yc="333.55" w="28.3586" h="22.7472" />
+                <representation type="RotatedRectangle" xc="622.85" yc="333.55" w="11" h="26.4" o="210.069" />
+            </object>
+            <object id="44">
+                <box xc="664.85" yc="355.925" w="29.0978" h="23.551" />
+                <representation type="RotatedRectangle" xc="664.85" yc="355.925" w="11.2" h="27.2" o="210.81" />
+            </object>
+            <object id="45">
+                <box xc="697.025" yc="373.175" w="26.0906" h="21.3062" />
+                <representation type="RotatedRectangle" xc="697.025" yc="373.175" w="9.2" h="25.1" o="212.715" />
+            </object>
+            <object id="46">
+                <box xc="653.725" yc="328.2" w="24.6175" h="19.9698" />
+                <representation type="RotatedRectangle" xc="653.725" yc="328.2" w="10.7" h="22.2" o="208.395" />
+            </object>
+            <object id="47">
+                <box xc="697.1" yc="349.55" w="23.6725" h="20.4557" />
+                <representation type="RotatedRectangle" xc="697.1" yc="349.55" w="9.4" h="22.3" o="214.844" />
+            </object>
+            <object id="48">
+                <box xc="656.575" yc="309.55" w="26.5756" h="22.3163" />
+                <representation type="RotatedRectangle" xc="656.575" yc="309.55" w="12.6" h="23.4" o="208.807" />
+            </object>
+            <object id="49">
+                <box xc="690.825" yc="325.975" w="26.8521" h="22.1385" />
+                <representation type="RotatedRectangle" xc="690.825" yc="325.975" w="11.6" h="24.3" o="209.785" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="8" file="C:/Training/StuttgartCrossroad01/MOS62.png" utc="2011-Sep-28 13:20:31.284000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.7996" lon="9.21354" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="246.4" yc="437.3" w="20.9706" h="24.4669" />
+                <representation type="RotatedRectangle" xc="246.4" yc="437.3" w="9" h="23.6" o="305.251" />
+            </object>
+            <object id="2">
+                <box xc="214.7" yc="445.725" w="32.4964" h="35.7836" />
+                <representation type="RotatedRectangle" xc="214.7" yc="445.725" w="12" h="36.5" o="309.556" />
+            </object>
+            <object id="3">
+                <box xc="47.1" yc="629.4" w="25.476" h="22.4787" />
+                <representation type="RotatedRectangle" xc="47.1" yc="629.4" w="11.5" h="23" o="325.62" />
+            </object>
+            <object id="4">
+                <box xc="143.55" yc="548.525" w="25.7628" h="23.2627" />
+                <representation type="RotatedRectangle" xc="143.55" yc="548.525" w="9.8" h="25.1" o="321.635" />
+            </object>
+            <object id="5">
+                <box xc="97.675" yc="599.05" w="30.1864" h="26.0886" />
+                <representation type="RotatedRectangle" xc="97.675" yc="599.05" w="13" h="27.6" o="326.447" />
+            </object>
+            <object id="6">
+                <box xc="47.025" yc="610.175" w="26.2027" h="22.5912" />
+                <representation type="RotatedRectangle" xc="47.025" yc="610.175" w="9.9" h="25.1" o="324.672" />
+            </object>
+            <object id="7">
+                <box xc="40.05" yc="654.75" w="26.4982" h="23.1931" />
+                <representation type="RotatedRectangle" xc="40.05" yc="654.75" w="11.8" h="24" o="326.044" />
+            </object>
+            <object id="9">
+                <box xc="150.1" yc="567.5" w="25.4426" h="22.7566" />
+                <representation type="RotatedRectangle" xc="150.1" yc="567.5" w="10.2" h="24.2" o="322.797" />
+            </object>
+            <object id="10">
+                <box xc="196.725" yc="508.5" w="24.5442" h="23.5307" />
+                <representation type="RotatedRectangle" xc="196.725" yc="508.5" w="12.5" h="21.6" o="319.517" />
+            </object>
+            <object id="11">
+                <box xc="201.725" yc="530.275" w="29.046" h="27.5619" />
+                <representation type="RotatedRectangle" xc="201.725" yc="530.275" w="11.3" h="28.8" o="318.438" />
+            </object>
+            <object id="12">
+                <box xc="289.925" yc="455.1" w="23.0502" h="23.4667" />
+                <representation type="RotatedRectangle" xc="289.925" yc="455.1" w="9.6" h="23.3" o="313.768" />
+            </object>
+            <object id="13">
+                <box xc="407.7" yc="324.075" w="22.721" h="25.5361" />
+                <representation type="RotatedRectangle" xc="407.7" yc="324.075" w="10.5" h="24" o="306.521" />
+            </object>
+            <object id="14">
+                <box xc="408.825" yc="288.1" w="25.6145" h="28.4557" />
+                <representation type="RotatedRectangle" xc="408.825" yc="288.1" w="10.7" h="27.8" o="308.253" />
+            </object>
+            <object id="15">
+                <box xc="493.75" yc="181.375" w="24.0299" h="26.2656" />
+                <representation type="RotatedRectangle" xc="493.75" yc="181.375" w="11" h="24.8" o="308.422" />
+            </object>
+            <object id="16">
+                <box xc="479.425" yc="231.95" w="23.5957" h="25.5829" />
+                <representation type="RotatedRectangle" xc="479.425" yc="231.95" w="11.3" h="23.7" o="308.493" />
+            </object>
+            <object id="17">
+                <box xc="524.175" yc="174.9" w="22.7584" h="24.1645" />
+                <representation type="RotatedRectangle" xc="524.175" yc="174.9" w="10.8" h="22.5" o="310.125" />
+            </object>
+            <object id="18">
+                <box xc="578.3" yc="74.65" w="27.031" h="27.6785" />
+                <representation type="RotatedRectangle" xc="578.3" yc="74.65" w="11" h="27.7" o="313.429" />
+            </object>
+            <object id="19">
+                <box xc="593.875" yc="86.825" w="39.4171" h="43.3827" />
+                <representation type="RotatedRectangle" xc="593.875" yc="86.825" w="16.6" h="42.3" o="308.736" />
+            </object>
+            <object id="23">
+                <box xc="671.925" yc="29.35" w="23.5113" h="24.496" />
+                <representation type="RotatedRectangle" xc="671.925" yc="29.35" w="10.8" h="23.2" o="311.781" />
+            </object>
+            <object id="24">
+                <box xc="687.25" yc="11.375" w="19.1825" h="20.0995" />
+                <representation type="RotatedRectangle" xc="687.25" yc="11.375" w="10.5" h="17.4" o="309.608" />
+            </object>
+            <object id="27">
+                <box xc="96.35" yc="386.675" w="28.188" h="25.9274" />
+                <representation type="RotatedRectangle" xc="96.35" yc="386.675" w="12" h="26.5" o="141.329" />
+            </object>
+            <object id="28">
+                <box xc="225.925" yc="263.125" w="36.6648" h="34.7824" />
+                <representation type="RotatedRectangle" xc="225.925" yc="263.125" w="13.4" h="37.2" o="138.206" />
+            </object>
+            <object id="29">
+                <box xc="217.6" yc="297.175" w="29.6775" h="28.8368" />
+                <representation type="RotatedRectangle" xc="217.6" yc="297.175" w="12" h="29.4" o="136.958" />
+            </object>
+            <object id="30">
+                <box xc="367.6" yc="159.075" w="27.5607" h="29.4117" />
+                <representation type="RotatedRectangle" xc="367.6" yc="159.075" w="11.5" h="28.9" o="130.686" />
+            </object>
+            <object id="31">
+                <box xc="456.4" yc="62.275" w="24.389" h="26.6627" />
+                <representation type="RotatedRectangle" xc="456.4" yc="62.275" w="10.5" h="25.8" o="128.968" />
+            </object>
+            <object id="37">
+                <box xc="81" yc="180.9" w="32.554" h="28.3689" />
+                <representation type="RotatedRectangle" xc="81" yc="180.9" w="12.2" h="31.4" o="36.1337" />
+            </object>
+            <object id="38">
+                <box xc="51.3" yc="185.625" w="23.0606" h="22.2492" />
+                <representation type="RotatedRectangle" xc="51.3" yc="185.625" w="11.4" h="20.7" o="41.463" />
+            </object>
+            <object id="39">
+                <box xc="80.9" yc="202.425" w="26.5462" h="23.3356" />
+                <representation type="RotatedRectangle" xc="80.9" yc="202.425" w="10.5" h="25.2" o="36.1158" />
+            </object>
+            <object id="40">
+                <box xc="117.75" yc="220.4" w="29.1991" h="23.653" />
+                <representation type="RotatedRectangle" xc="117.75" yc="220.4" w="11.8" h="26.9" o="29.9471" />
+            </object>
+            <object id="41">
+                <box xc="148.65" yc="232.45" w="25.7109" h="19.3222" />
+                <representation type="RotatedRectangle" xc="148.65" yc="232.45" w="12.3" h="22.9" o="19.7744" />
+            </object>
+            <object id="42">
+                <box xc="617.95" yc="312.4" w="29.4333" h="22.6276" />
+                <representation type="RotatedRectangle" xc="617.95" yc="312.4" w="11.3" h="27.3" o="207.496" />
+            </object>
+            <object id="43">
+                <box xc="622.875" yc="334.325" w="28.6673" h="22.482" />
+                <representation type="RotatedRectangle" xc="622.875" yc="334.325" w="11.1" h="26.6" o="208.61" />
+            </object>
+            <object id="44">
+                <box xc="664.35" yc="356.4" w="28.9862" h="23.1238" />
+                <representation type="RotatedRectangle" xc="664.35" yc="356.4" w="10.9" h="27.2" o="210.267" />
+            </object>
+            <object id="45">
+                <box xc="697.4" yc="374.25" w="26.6471" h="22.5415" />
+                <representation type="RotatedRectangle" xc="697.4" yc="374.25" w="9.9" h="25.5" o="214.275" />
+            </object>
+            <object id="46">
+                <box xc="654.175" yc="328.825" w="23.9622" h="19.6578" />
+                <representation type="RotatedRectangle" xc="654.175" yc="328.825" w="10.8" h="21.4" o="208.313" />
+            </object>
+            <object id="47">
+                <box xc="697.075" yc="350.3" w="24.9019" h="21.7459" />
+                <representation type="RotatedRectangle" xc="697.075" yc="350.3" w="9.6" h="23.8" o="215.958" />
+            </object>
+            <object id="48">
+                <box xc="655.9" yc="310.275" w="26.3856" h="21.1184" />
+                <representation type="RotatedRectangle" xc="655.9" yc="310.275" w="11.8" h="23.6" o="206.601" />
+            </object>
+            <object id="49">
+                <box xc="690.9" yc="326.325" w="27.545" h="23.4751" />
+                <representation type="RotatedRectangle" xc="690.9" yc="326.325" w="12.7" h="24.5" o="210.884" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="9" file="C:/Training/StuttgartCrossroad01/MOS63.png" utc="2011-Sep-28 13:20:31.585000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.7994" lon="9.21374" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="246.6" yc="437.625" w="21.402" h="24.9298" />
+                <representation type="RotatedRectangle" xc="246.6" yc="437.625" w="8.9" h="24.3" o="305.678" />
+            </object>
+            <object id="2">
+                <box xc="218.95" yc="440" w="31.6727" h="35.3895" />
+                <representation type="RotatedRectangle" xc="218.95" yc="440" w="11.7" h="36" o="308.791" />
+            </object>
+            <object id="3">
+                <box xc="52.275" yc="627.3" w="26.3567" h="23.3177" />
+                <representation type="RotatedRectangle" xc="52.275" yc="627.3" w="11.2" h="24.4" o="324.369" />
+            </object>
+            <object id="4">
+                <box xc="154.2" yc="542.575" w="25.911" h="23.9007" />
+                <representation type="RotatedRectangle" xc="154.2" yc="542.575" w="10.6" h="24.8" o="320.745" />
+            </object>
+            <object id="5">
+                <box xc="102.675" yc="596.45" w="29.504" h="26.5373" />
+                <representation type="RotatedRectangle" xc="102.675" yc="596.45" w="12.3" h="27.7" o="322.829" />
+            </object>
+            <object id="6">
+                <box xc="65.325" yc="599.6" w="26.3374" h="23.1106" />
+                <representation type="RotatedRectangle" xc="65.325" yc="599.6" w="10.4" h="25" o="323.991" />
+            </object>
+            <object id="7">
+                <box xc="57.85" yc="644.575" w="26.8052" h="22.92" />
+                <representation type="RotatedRectangle" xc="57.85" yc="644.575" w="11.6" h="24.4" o="327.394" />
+            </object>
+            <object id="9">
+                <box xc="157.35" yc="562.825" w="25.7279" h="22.7417" />
+                <representation type="RotatedRectangle" xc="157.35" yc="562.825" w="9.6" h="25" o="322.881" />
+            </object>
+            <object id="10">
+                <box xc="205.125" yc="502.225" w="24.265" h="22.915" />
+                <representation type="RotatedRectangle" xc="205.125" yc="502.225" w="11.5" h="22" o="320.216" />
+            </object>
+            <object id="11">
+                <box xc="211.625" yc="522.8" w="29.8155" h="27.6919" />
+                <representation type="RotatedRectangle" xc="211.625" yc="522.8" w="11.2" h="29.6" o="319.681" />
+            </object>
+            <object id="12">
+                <box xc="300.6" yc="445.25" w="22.5033" h="22.7475" />
+                <representation type="RotatedRectangle" xc="300.6" yc="445.25" w="9.5" h="22.5" o="314.239" />
+            </object>
+            <object id="13">
+                <box xc="417.3" yc="313.25" w="22.8171" h="25.6108" />
+                <representation type="RotatedRectangle" xc="417.3" yc="313.25" w="10.4" h="24.2" o="306.77" />
+            </object>
+            <object id="14">
+                <box xc="422.4" yc="271.35" w="24.8726" h="27.6182" />
+                <representation type="RotatedRectangle" xc="422.4" yc="271.35" w="10.8" h="26.6" o="307.942" />
+            </object>
+            <object id="15">
+                <box xc="509.625" yc="162.25" w="24.026" h="24.8515" />
+                <representation type="RotatedRectangle" xc="509.625" yc="162.25" w="11.1" h="23.5" o="312.302" />
+            </object>
+            <object id="16">
+                <box xc="489.275" yc="220.35" w="22.8462" h="23.8739" />
+                <representation type="RotatedRectangle" xc="489.275" yc="220.35" w="10.7" h="22.4" o="311.439" />
+            </object>
+            <object id="17">
+                <box xc="536.15" yc="161.725" w="22.7219" h="24.0753" />
+                <representation type="RotatedRectangle" xc="536.15" yc="161.725" w="10.7" h="22.5" o="310.348" />
+            </object>
+            <object id="18">
+                <box xc="594.8" yc="55.65" w="25.8413" h="26.8587" />
+                <representation type="RotatedRectangle" xc="594.8" yc="55.65" w="10.4" h="26.9" o="312.501" />
+            </object>
+            <object id="19">
+                <box xc="605.375" yc="74.125" w="40.2825" h="42.9466" />
+                <representation type="RotatedRectangle" xc="605.375" yc="74.125" w="16.2" h="42.8" o="310.939" />
+            </object>
+            <object id="23">
+                <box xc="672.375" yc="30.175" w="23.0382" h="23.9833" />
+                <representation type="RotatedRectangle" xc="672.375" yc="30.175" w="10.6" h="22.7" o="311.834" />
+            </object>
+            <object id="24">
+                <box xc="687.225" yc="12.2" w="18.9455" h="19.5878" />
+                <representation type="RotatedRectangle" xc="687.225" yc="12.2" w="10" h="17.3" o="311.433" />
+            </object>
+            <object id="27">
+                <box xc="74.9" yc="402.425" w="27.6004" h="25.2328" />
+                <representation type="RotatedRectangle" xc="74.9" yc="402.425" w="11.4" h="26.2" o="141.495" />
+            </object>
+            <object id="28">
+                <box xc="210.575" yc="276.6" w="36.4274" h="34.1061" />
+                <representation type="RotatedRectangle" xc="210.575" yc="276.6" w="13.4" h="36.6" o="139.057" />
+            </object>
+            <object id="29">
+                <box xc="197.425" yc="313.6" w="30.735" h="29.5869" />
+                <representation type="RotatedRectangle" xc="197.425" yc="313.6" w="12.6" h="30.1" o="137.659" />
+            </object>
+            <object id="30">
+                <box xc="355.175" yc="173.05" w="28.3305" h="29.5745" />
+                <representation type="RotatedRectangle" xc="355.175" yc="173.05" w="12" h="29" o="132.034" />
+            </object>
+            <object id="31">
+                <box xc="446.875" yc="72.4" w="25.7681" h="26.5269" />
+                <representation type="RotatedRectangle" xc="446.875" yc="72.4" w="10.7" h="26.3" o="133.029" />
+            </object>
+            <object id="37">
+                <box xc="87.05" yc="185.25" w="33.3097" h="28.1233" />
+                <representation type="RotatedRectangle" xc="87.05" yc="185.25" w="12.8" h="31.5" o="33.6901" />
+            </object>
+            <object id="38">
+                <box xc="50.85" yc="185.85" w="23.1095" h="21.6363" />
+                <representation type="RotatedRectangle" xc="50.85" yc="185.85" w="10.7" h="21.1" o="39.2513" />
+            </object>
+            <object id="39">
+                <box xc="80.45" yc="203.625" w="26.5758" h="23.2056" />
+                <representation type="RotatedRectangle" xc="80.45" yc="203.625" w="10.7" h="25" o="35.4069" />
+            </object>
+            <object id="40">
+                <box xc="117.8" yc="221.225" w="28.1833" h="22.6966" />
+                <representation type="RotatedRectangle" xc="117.8" yc="221.225" w="11.3" h="26" o="29.6972" />
+            </object>
+            <object id="41">
+                <box xc="149.1" yc="233.05" w="25.6445" h="18.446" />
+                <representation type="RotatedRectangle" xc="149.1" yc="233.05" w="11.9" h="23.1" o="17.9691" />
+            </object>
+            <object id="42">
+                <box xc="617.9" yc="313.825" w="28.9664" h="23.3239" />
+                <representation type="RotatedRectangle" xc="617.9" yc="313.825" w="11.5" h="26.8" o="209.884" />
+            </object>
+            <object id="43">
+                <box xc="622.775" yc="335.575" w="28.0126" h="22.39" />
+                <representation type="RotatedRectangle" xc="622.775" yc="335.575" w="11.1" h="25.9" o="209.417" />
+            </object>
+            <object id="44">
+                <box xc="664.75" yc="357.425" w="28.8541" h="23.1678" />
+                <representation type="RotatedRectangle" xc="664.75" yc="357.425" w="10.6" h="27.3" o="211.068" />
+            </object>
+            <object id="45">
+                <box xc="697.325" yc="374.675" w="27.1372" h="22.4028" />
+                <representation type="RotatedRectangle" xc="697.325" yc="374.675" w="10.3" h="25.6" o="212.361" />
+            </object>
+            <object id="46">
+                <box xc="654.15" yc="329.975" w="24.4624" h="19.5732" />
+                <representation type="RotatedRectangle" xc="654.15" yc="329.975" w="10.9" h="21.9" o="206.682" />
+            </object>
+            <object id="47">
+                <box xc="697.275" yc="351.275" w="24.8054" h="20.9879" />
+                <representation type="RotatedRectangle" xc="697.275" yc="351.275" w="9.5" h="23.5" o="213.883" />
+            </object>
+            <object id="48">
+                <box xc="657.025" yc="311.075" w="27.4218" h="22.939" />
+                <representation type="RotatedRectangle" xc="657.025" yc="311.075" w="12.9" h="24.2" o="208.709" />
+            </object>
+            <object id="49">
+                <box xc="690.925" yc="326.925" w="27.5959" h="22.5655" />
+                <representation type="RotatedRectangle" xc="690.925" yc="326.925" w="12" h="24.9" o="208.994" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="10" file="C:/Training/StuttgartCrossroad01/MOS64.png" utc="2011-Sep-28 13:20:31.885000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.7993" lon="9.21394" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="247.15" yc="436.05" w="21.5627" h="24.7195" />
+                <representation type="RotatedRectangle" xc="247.15" yc="436.05" w="9.1" h="24" o="306.384" />
+            </object>
+            <object id="2">
+                <box xc="224.25" yc="431.925" w="33.4277" h="37.1973" />
+                <representation type="RotatedRectangle" xc="224.25" yc="431.925" w="14" h="36.3" o="308.135" />
+            </object>
+            <object id="3">
+                <box xc="57.975" yc="621.925" w="26.9862" h="22.9368" />
+                <representation type="RotatedRectangle" xc="57.975" yc="621.925" w="10.7" h="25.3" o="326.31" />
+            </object>
+            <object id="4">
+                <box xc="166.4" yc="532.275" w="27.1621" h="23.9359" />
+                <representation type="RotatedRectangle" xc="166.4" yc="532.275" w="10.2" h="26.3" o="323.146" />
+            </object>
+            <object id="5">
+                <box xc="109.475" yc="590.65" w="30.3096" h="27.2871" />
+                <representation type="RotatedRectangle" xc="109.475" yc="590.65" w="12.6" h="28.5" o="322.725" />
+            </object>
+            <object id="6">
+                <box xc="83.2" yc="587.15" w="26.4459" h="23.1599" />
+                <representation type="RotatedRectangle" xc="83.2" yc="587.15" w="11" h="24.6" o="324.837" />
+            </object>
+            <object id="7">
+                <box xc="75.7" yc="632.225" w="26.998" h="23.0218" />
+                <representation type="RotatedRectangle" xc="75.7" yc="632.225" w="11.5" h="24.7" o="327.298" />
+            </object>
+            <object id="9">
+                <box xc="166.375" yc="554.85" w="26.162" h="22.6539" />
+                <representation type="RotatedRectangle" xc="166.375" yc="554.85" w="10" h="25" o="324.519" />
+            </object>
+            <object id="10">
+                <box xc="214.75" yc="493.35" w="23.5142" h="22.3064" />
+                <representation type="RotatedRectangle" xc="214.75" yc="493.35" w="10.8" h="21.7" o="319.494" />
+            </object>
+            <object id="11">
+                <box xc="222.8" yc="512.775" w="29.6904" h="28.0188" />
+                <representation type="RotatedRectangle" xc="222.8" yc="512.775" w="11.7" h="29.2" o="318.873" />
+            </object>
+            <object id="12">
+                <box xc="311.65" yc="432.05" w="22.8089" h="23.1442" />
+                <representation type="RotatedRectangle" xc="311.65" yc="432.05" w="10.2" h="22.3" o="313.877" />
+            </object>
+            <object id="13">
+                <box xc="427.475" yc="299.65" w="22.5643" h="24.8701" />
+                <representation type="RotatedRectangle" xc="427.475" yc="299.65" w="10.3" h="23.5" o="307.905" />
+            </object>
+            <object id="14">
+                <box xc="437.675" yc="251.6" w="24.8536" h="27.4098" />
+                <representation type="RotatedRectangle" xc="437.675" yc="251.6" w="10.7" h="26.5" o="308.431" />
+            </object>
+            <object id="15">
+                <box xc="525.65" yc="140.875" w="22.677" h="23.7399" />
+                <representation type="RotatedRectangle" xc="525.65" yc="140.875" w="11" h="21.9" o="311.046" />
+            </object>
+            <object id="16">
+                <box xc="501.05" yc="206.5" w="23.2391" h="25.3993" />
+                <representation type="RotatedRectangle" xc="501.05" yc="206.5" w="11.6" h="23.1" o="307.367" />
+            </object>
+            <object id="17">
+                <box xc="548.4" yc="145.825" w="22.1451" h="23.2728" />
+                <representation type="RotatedRectangle" xc="548.4" yc="145.825" w="10.6" h="21.6" o="310.843" />
+            </object>
+            <object id="18">
+                <box xc="611.4" yc="34.85" w="26.7089" h="27.9444" />
+                <representation type="RotatedRectangle" xc="611.4" yc="34.85" w="11.1" h="27.6" o="311.965" />
+            </object>
+            <object id="19">
+                <box xc="618.1" yc="58.2" w="40.0037" h="42.039" />
+                <representation type="RotatedRectangle" xc="618.1" yc="58.2" w="15.9" h="42.2" o="311.863" />
+            </object>
+            <object id="23">
+                <box xc="673.475" yc="29.3" w="23.007" h="24.1191" />
+                <representation type="RotatedRectangle" xc="673.475" yc="29.3" w="10.9" h="22.5" o="311.113" />
+            </object>
+            <object id="24">
+                <box xc="687.775" yc="11.525" w="18.7164" h="19.2561" />
+                <representation type="RotatedRectangle" xc="687.775" yc="11.525" w="10.3" h="16.6" o="311.527" />
+            </object>
+            <object id="27">
+                <box xc="53.4" yc="415.4" w="27.4575" h="24.8132" />
+                <representation type="RotatedRectangle" xc="53.4" yc="415.4" w="11.7" h="25.6" o="142.731" />
+            </object>
+            <object id="28">
+                <box xc="194.475" yc="287.95" w="36.4146" h="33.7822" />
+                <representation type="RotatedRectangle" xc="194.475" yc="287.95" w="13.4" h="36.4" o="139.642" />
+            </object>
+            <object id="29">
+                <box xc="177.625" yc="327.325" w="30.7162" h="28.7782" />
+                <representation type="RotatedRectangle" xc="177.625" yc="327.325" w="12.4" h="29.8" o="139.517" />
+            </object>
+            <object id="30">
+                <box xc="343.825" yc="184.125" w="27.5653" h="28.7924" />
+                <representation type="RotatedRectangle" xc="343.825" yc="184.125" w="11.2" h="28.7" o="132.158" />
+            </object>
+            <object id="31">
+                <box xc="438.55" yc="80.5" w="26.3828" h="26.9172" />
+                <representation type="RotatedRectangle" xc="438.55" yc="80.5" w="11.1" h="26.6" o="133.603" />
+            </object>
+            <object id="34">
+                <box xc="211.75" yc="76.825" w="28.264" h="25.4851" />
+                <representation type="RotatedRectangle" xc="211.75" yc="76.825" w="11.2" h="27.1" o="217.901" />
+            </object>
+            <object id="36">
+                <box xc="506.675" yc="449.775" w="25.2161" h="20.859" />
+                <representation type="RotatedRectangle" xc="506.675" yc="449.775" w="10.5" h="23.1" o="30.8466" />
+            </object>
+            <object id="37">
+                <box xc="93.225" yc="186.875" w="33.4235" h="28.1687" />
+                <representation type="RotatedRectangle" xc="93.225" yc="186.875" w="13.2" h="31.3" o="33.1536" />
+            </object>
+            <object id="38">
+                <box xc="51.125" yc="184.525" w="23.7956" h="22.3308" />
+                <representation type="RotatedRectangle" xc="51.125" yc="184.525" w="11.5" h="21.3" o="38.9328" />
+            </object>
+            <object id="39">
+                <box xc="80.85" yc="201.475" w="27.359" h="22.4574" />
+                <representation type="RotatedRectangle" xc="80.85" yc="201.475" w="9.6" h="26.4" o="33.094" />
+            </object>
+            <object id="40">
+                <box xc="117.875" yc="220.45" w="28.7111" h="19.8097" />
+                <representation type="RotatedRectangle" xc="117.875" yc="220.45" w="9.9" h="27" o="23.4026" />
+            </object>
+            <object id="41">
+                <box xc="149.95" yc="230.875" w="24.7322" h="19.5536" />
+                <representation type="RotatedRectangle" xc="149.95" yc="230.875" w="13.1" h="21.6" o="19.4813" />
+            </object>
+            <object id="42">
+                <box xc="618.9" yc="312.175" w="29.0642" h="22.9516" />
+                <representation type="RotatedRectangle" xc="618.9" yc="312.175" w="11.4" h="26.9" o="208.808" />
+            </object>
+            <object id="43">
+                <box xc="623.75" yc="333.625" w="27.9084" h="22.435" />
+                <representation type="RotatedRectangle" xc="623.75" yc="333.625" w="11.1" h="25.8" o="209.735" />
+            </object>
+            <object id="44">
+                <box xc="665.55" yc="355.975" w="28.9535" h="23.1703" />
+                <representation type="RotatedRectangle" xc="665.55" yc="355.975" w="10.6" h="27.4" o="210.912" />
+            </object>
+            <object id="45">
+                <box xc="697.4" yc="373.5" w="27.01" h="22.4582" />
+                <representation type="RotatedRectangle" xc="697.4" yc="373.5" w="9.8" h="25.9" o="213.468" />
+            </object>
+            <object id="46">
+                <box xc="654.3" yc="327.9" w="23.3492" h="18.1715" />
+                <representation type="RotatedRectangle" xc="654.3" yc="327.9" w="10" h="21.1" o="205.741" />
+            </object>
+            <object id="47">
+                <box xc="697.65" yc="349.65" w="24.0776" h="20.105" />
+                <representation type="RotatedRectangle" xc="697.65" yc="349.65" w="9" h="22.9" o="213.341" />
+            </object>
+            <object id="48">
+                <box xc="657.2" yc="310.025" w="26.3208" h="22.494" />
+                <representation type="RotatedRectangle" xc="657.2" yc="310.025" w="12.8" h="23" o="209.616" />
+            </object>
+            <object id="49">
+                <box xc="691.775" yc="325.675" w="28.123" h="23.5192" />
+                <representation type="RotatedRectangle" xc="691.775" yc="325.675" w="12.6" h="25.2" o="210.027" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="11" file="C:/Training/StuttgartCrossroad01/MOS65.png" utc="2011-Sep-28 13:20:32.184000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.7992" lon="9.21413" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="246.875" yc="435.475" w="21.8243" h="25.8058" />
+                <representation type="RotatedRectangle" xc="246.875" yc="435.475" w="9" h="25.2" o="304.992" />
+            </object>
+            <object id="2">
+                <box xc="228.35" yc="424.5" w="33.0837" h="37.6979" />
+                <representation type="RotatedRectangle" xc="228.35" yc="424.5" w="13" h="37.5" o="307.347" />
+            </object>
+            <object id="3">
+                <box xc="63.5" yc="617.475" w="27.7906" h="22.7798" />
+                <representation type="RotatedRectangle" xc="63.5" yc="617.475" w="10.9" h="25.9" o="328.663" />
+            </object>
+            <object id="4">
+                <box xc="176.6" yc="524.325" w="26.6555" h="24.7999" />
+                <representation type="RotatedRectangle" xc="176.6" yc="524.325" w="10" h="26.5" o="319.561" />
+            </object>
+            <object id="5">
+                <box xc="115.675" yc="585.35" w="29.7729" h="26.0394" />
+                <representation type="RotatedRectangle" xc="115.675" yc="585.35" w="11.9" h="28.1" o="324.379" />
+            </object>
+            <object id="6">
+                <box xc="99.775" yc="575.725" w="27.0291" h="23.3824" />
+                <representation type="RotatedRectangle" xc="99.775" yc="575.725" w="10.7" h="25.5" o="325.034" />
+            </object>
+            <object id="7">
+                <box xc="92.8" yc="620.275" w="26.2605" h="23.5532" />
+                <representation type="RotatedRectangle" xc="92.8" yc="620.275" w="11.2" h="24.4" o="323.339" />
+            </object>
+            <object id="9">
+                <box xc="174.975" yc="547.875" w="25.7702" h="22.713" />
+                <representation type="RotatedRectangle" xc="174.975" yc="547.875" w="9.3" h="25.3" o="322.765" />
+            </object>
+            <object id="10">
+                <box xc="223.575" yc="485.425" w="24.2192" h="23.5349" />
+                <representation type="RotatedRectangle" xc="223.575" yc="485.425" w="11.4" h="22.4" o="317.521" />
+            </object>
+            <object id="11">
+                <box xc="234.075" yc="502.925" w="30.2204" h="28.4943" />
+                <representation type="RotatedRectangle" xc="234.075" yc="502.925" w="11.1" h="30.5" o="318.607" />
+            </object>
+            <object id="12">
+                <box xc="322.175" yc="420.575" w="21.8681" h="23.3515" />
+                <representation type="RotatedRectangle" xc="322.175" yc="420.575" w="10.1" h="22" o="309.943" />
+            </object>
+            <object id="13">
+                <box xc="436.8" yc="287.025" w="22.859" h="25.4821" />
+                <representation type="RotatedRectangle" xc="436.8" yc="287.025" w="10.4" h="24.1" o="307.219" />
+            </object>
+            <object id="14">
+                <box xc="452.625" yc="232.6" w="24.953" h="27.5736" />
+                <representation type="RotatedRectangle" xc="452.625" yc="232.6" w="10.8" h="26.6" o="308.265" />
+            </object>
+            <object id="15">
+                <box xc="542.85" yc="120" w="24.112" h="26.014" />
+                <representation type="RotatedRectangle" xc="542.85" yc="120" w="10.6" h="25" o="309.641" />
+            </object>
+            <object id="16">
+                <box xc="511.675" yc="192.35" w="22.9359" h="25.1059" />
+                <representation type="RotatedRectangle" xc="511.675" yc="192.35" w="11.6" h="22.7" o="307.054" />
+            </object>
+            <object id="17">
+                <box xc="560.375" yc="131.05" w="22.1493" h="23.3875" />
+                <representation type="RotatedRectangle" xc="560.375" yc="131.05" w="10.6" h="21.7" o="310.476" />
+            </object>
+            <object id="18">
+                <box xc="627.875" yc="14.6" w="26.0985" h="27.1676" />
+                <representation type="RotatedRectangle" xc="627.875" yc="14.6" w="10.1" h="27.6" o="312.524" />
+            </object>
+            <object id="19">
+                <box xc="629.725" yc="43.8" w="40.746" h="43.2066" />
+                <representation type="RotatedRectangle" xc="629.725" yc="43.8" w="16.9" h="42.6" o="311.118" />
+            </object>
+            <object id="23">
+                <box xc="674.1" yc="28.775" w="23.3607" h="24.101" />
+                <representation type="RotatedRectangle" xc="674.1" yc="28.775" w="11.4" h="22.2" o="312.222" />
+            </object>
+            <object id="24">
+                <box xc="688.25" yc="11.025" w="19.3369" h="19.5435" />
+                <representation type="RotatedRectangle" xc="688.25" yc="11.025" w="10.6" h="16.9" o="313.671" />
+            </object>
+            <object id="27">
+                <box xc="31.05" yc="428.8" w="27.9996" h="24.9817" />
+                <representation type="RotatedRectangle" xc="31.05" yc="428.8" w="11.9" h="26" o="143.705" />
+            </object>
+            <object id="28">
+                <box xc="177.35" yc="299.625" w="36.7864" h="33.9082" />
+                <representation type="RotatedRectangle" xc="177.35" yc="299.625" w="14" h="36.2" o="140.26" />
+            </object>
+            <object id="29">
+                <box xc="156.5" yc="341.825" w="29.3528" h="26.8636" />
+                <representation type="RotatedRectangle" xc="156.5" yc="341.825" w="12.1" h="27.9" o="141.396" />
+            </object>
+            <object id="30">
+                <box xc="331.05" yc="196.1" w="27.5444" h="28.9392" />
+                <representation type="RotatedRectangle" xc="331.05" yc="196.1" w="11" h="29" o="131.859" />
+            </object>
+            <object id="31">
+                <box xc="428.975" yc="90.7" w="25.1538" h="26.9865" />
+                <representation type="RotatedRectangle" xc="428.975" yc="90.7" w="10.8" h="26.2" o="130.173" />
+            </object>
+            <object id="32">
+                <box xc="468.05" yc="23.975" w="24.0048" h="24.7405" />
+                <representation type="RotatedRectangle" xc="468.05" yc="23.975" w="11.2" h="23.3" o="132.536" />
+            </object>
+            <object id="34">
+                <box xc="192.25" yc="58.9" w="28.5424" h="26.6008" />
+                <representation type="RotatedRectangle" xc="192.25" yc="58.9" w="10.3" h="28.8" o="220.744" />
+            </object>
+            <object id="36">
+                <box xc="529.625" yc="463.525" w="24.7901" h="20.8316" />
+                <representation type="RotatedRectangle" xc="529.625" yc="463.525" w="10.3" h="22.8" o="32.0603" />
+            </object>
+            <object id="37">
+                <box xc="98.5" yc="189.1" w="33.5357" h="27.4103" />
+                <representation type="RotatedRectangle" xc="98.5" yc="189.1" w="12.8" h="31.5" o="31.6075" />
+            </object>
+            <object id="38">
+                <box xc="50.425" yc="183.85" w="23.6474" h="22.2059" />
+                <representation type="RotatedRectangle" xc="50.425" yc="183.85" w="11.4" h="21.2" o="39.03" />
+            </object>
+            <object id="39">
+                <box xc="80.325" yc="200.675" w="26.2338" h="22.7879" />
+                <representation type="RotatedRectangle" xc="80.325" yc="200.675" w="9.8" h="25.3" o="35.9553" />
+            </object>
+            <object id="40">
+                <box xc="117.275" yc="219.05" w="28.6455" h="20.6871" />
+                <representation type="RotatedRectangle" xc="117.275" yc="219.05" w="10.5" h="26.7" o="24.6731" />
+            </object>
+            <object id="41">
+                <box xc="149.325" yc="230" w="25.3522" h="19.1768" />
+                <representation type="RotatedRectangle" xc="149.325" yc="230" w="12.5" h="22.5" o="19.1084" />
+            </object>
+            <object id="42">
+                <box xc="618.8" yc="310.95" w="29.1686" h="23.2589" />
+                <representation type="RotatedRectangle" xc="618.8" yc="310.95" w="11.8" h="26.8" o="208.824" />
+            </object>
+            <object id="43">
+                <box xc="623.875" yc="332.475" w="27.4489" h="21.7103" />
+                <representation type="RotatedRectangle" xc="623.875" yc="332.475" w="10.2" h="25.8" o="209.923" />
+            </object>
+            <object id="44">
+                <box xc="665.85" yc="355.575" w="29.0309" h="23.3346" />
+                <representation type="RotatedRectangle" xc="665.85" yc="355.575" w="10.5" h="27.6" o="211.376" />
+            </object>
+            <object id="45">
+                <box xc="698.225" yc="372.45" w="27.0959" h="22.5869" />
+                <representation type="RotatedRectangle" xc="698.225" yc="372.45" w="10.7" h="25.3" o="212.386" />
+            </object>
+            <object id="46">
+                <box xc="654.925" yc="327.25" w="23.9723" h="19.4716" />
+                <representation type="RotatedRectangle" xc="654.925" yc="327.25" w="11" h="21.3" o="207.002" />
+            </object>
+            <object id="47">
+                <box xc="698.1" yc="349.275" w="23.8196" h="19.534" />
+                <representation type="RotatedRectangle" xc="698.1" yc="349.275" w="8.7" h="22.7" o="212.499" />
+            </object>
+            <object id="48">
+                <box xc="656.775" yc="308.875" w="26.1954" h="22.3382" />
+                <representation type="RotatedRectangle" xc="656.775" yc="308.875" w="12.9" h="22.8" o="209.008" />
+            </object>
+            <object id="49">
+                <box xc="691.625" yc="324.9" w="27.1061" h="23.1824" />
+                <representation type="RotatedRectangle" xc="691.625" yc="324.9" w="12.1" h="24.4" o="211.964" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="12" file="C:/Training/StuttgartCrossroad01/MOS66.png" utc="2011-Sep-28 13:20:32.485000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.799" lon="9.21433" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="247.45" yc="435.9" w="21.6142" h="25.0229" />
+                <representation type="RotatedRectangle" xc="247.45" yc="435.9" w="9.1" h="24.3" o="305.876" />
+            </object>
+            <object id="2">
+                <box xc="233.425" yc="417.85" w="32.2925" h="36.5604" />
+                <representation type="RotatedRectangle" xc="233.425" yc="417.85" w="12.9" h="36.2" o="307.558" />
+            </object>
+            <object id="3">
+                <box xc="68.9" yc="615.725" w="27.4836" h="23.5527" />
+                <representation type="RotatedRectangle" xc="68.9" yc="615.725" w="11.3" h="25.5" o="326.288" />
+            </object>
+            <object id="4">
+                <box xc="187.25" yc="517.75" w="24.7973" h="22.9684" />
+                <representation type="RotatedRectangle" xc="187.25" yc="517.75" w="9.4" h="24.5" o="319.913" />
+            </object>
+            <object id="5">
+                <box xc="123.9" yc="581.575" w="31.2018" h="26.0119" />
+                <representation type="RotatedRectangle" xc="123.9" yc="581.575" w="10.9" h="30.3" o="325.904" />
+            </object>
+            <object id="6">
+                <box xc="116.375" yc="566.1" w="26.9489" h="23.6329" />
+                <representation type="RotatedRectangle" xc="116.375" yc="566.1" w="10.5" h="25.7" o="323.874" />
+            </object>
+            <object id="7">
+                <box xc="110.6" yc="610.525" w="26.2875" h="23.031" />
+                <representation type="RotatedRectangle" xc="110.6" yc="610.525" w="11" h="24.4" o="324.895" />
+            </object>
+            <object id="9">
+                <box xc="185.325" yc="541.95" w="24.2543" h="22.0903" />
+                <representation type="RotatedRectangle" xc="185.325" yc="541.95" w="10" h="23" o="321.76" />
+            </object>
+            <object id="10">
+                <box xc="234.1" yc="477.575" w="23.6749" h="22.6143" />
+                <representation type="RotatedRectangle" xc="234.1" yc="477.575" w="10.6" h="22.2" o="318.707" />
+            </object>
+            <object id="11">
+                <box xc="246.575" yc="493.925" w="30.7772" h="29.3932" />
+                <representation type="RotatedRectangle" xc="246.575" yc="493.925" w="11.5" h="31.1" o="317.862" />
+            </object>
+            <object id="12">
+                <box xc="334.9" yc="408.35" w="21.9716" h="23.7779" />
+                <representation type="RotatedRectangle" xc="334.9" yc="408.35" w="9.6" h="22.9" o="309.489" />
+            </object>
+            <object id="13">
+                <box xc="447.125" yc="275.75" w="23.0901" h="25.4212" />
+                <representation type="RotatedRectangle" xc="447.125" yc="275.75" w="11" h="23.6" o="307.483" />
+            </object>
+            <object id="14">
+                <box xc="468.075" yc="215.675" w="24.6835" h="27.7274" />
+                <representation type="RotatedRectangle" xc="468.075" yc="215.675" w="10.7" h="26.7" o="307.269" />
+            </object>
+            <object id="15">
+                <box xc="558.875" yc="102.2" w="25.3814" h="27.5486" />
+                <representation type="RotatedRectangle" xc="558.875" yc="102.2" w="10.8" h="26.8" o="309.504" />
+            </object>
+            <object id="16">
+                <box xc="524" yc="179.1" w="23.9512" h="25.1454" />
+                <representation type="RotatedRectangle" xc="524" yc="179.1" w="11.3" h="23.5" o="311.031" />
+            </object>
+            <object id="17">
+                <box xc="572.45" yc="118.25" w="22.1349" h="23.2756" />
+                <representation type="RotatedRectangle" xc="572.45" yc="118.25" w="10.7" h="21.5" o="310.717" />
+            </object>
+            <object id="19">
+                <box xc="641.775" yc="30.4" w="39.9354" h="42.9955" />
+                <representation type="RotatedRectangle" xc="641.775" yc="30.4" w="17.9" h="41" o="309.625" />
+            </object>
+            <object id="23">
+                <box xc="673.975" yc="29.85" w="22.6645" h="24.2411" />
+                <representation type="RotatedRectangle" xc="673.975" yc="29.85" w="10.4" h="22.9" o="309.883" />
+            </object>
+            <object id="24">
+                <box xc="688.875" yc="11.525" w="18.2168" h="19.0061" />
+                <representation type="RotatedRectangle" xc="688.875" yc="11.525" w="9.6" h="16.8" o="310.554" />
+            </object>
+            <object id="27">
+                <box xc="11.025" yc="443.3" w="22.4678" h="20.6739" />
+                <representation type="RotatedRectangle" xc="11.025" yc="443.3" w="10.8" h="20" o="142.925" />
+            </object>
+            <object id="28">
+                <box xc="159.775" yc="313.575" w="37.9522" h="34.6247" />
+                <representation type="RotatedRectangle" xc="159.775" yc="313.575" w="14.5" h="37.1" o="140.976" />
+            </object>
+            <object id="29">
+                <box xc="134.675" yc="359.175" w="29.0391" h="26.8156" />
+                <representation type="RotatedRectangle" xc="134.675" yc="359.175" w="12.1" h="27.6" o="140.822" />
+            </object>
+            <object id="30">
+                <box xc="317.85" yc="210.325" w="27.2287" h="28.6879" />
+                <representation type="RotatedRectangle" xc="317.85" yc="210.325" w="10.5" h="29.1" o="131.82" />
+            </object>
+            <object id="31">
+                <box xc="420.475" yc="101.675" w="25.8589" h="27.7897" />
+                <representation type="RotatedRectangle" xc="420.475" yc="101.675" w="11.7" h="26.4" o="129.671" />
+            </object>
+            <object id="32">
+                <box xc="445.65" yc="50.45" w="24.7459" h="26.1424" />
+                <representation type="RotatedRectangle" xc="445.65" yc="50.45" w="11.9" h="24.2" o="130.395" />
+            </object>
+            <object id="34">
+                <box xc="172.775" yc="41.025" w="26.1581" h="25.5882" />
+                <representation type="RotatedRectangle" xc="172.775" yc="41.025" w="9.6" h="27" o="223.673" />
+            </object>
+            <object id="36">
+                <box xc="552.975" yc="478.775" w="24.763" h="21.1403" />
+                <representation type="RotatedRectangle" xc="552.975" yc="478.775" w="9.4" h="23.6" o="34.6071" />
+            </object>
+            <object id="37">
+                <box xc="104.725" yc="192.525" w="33.97" h="27.1851" />
+                <representation type="RotatedRectangle" xc="104.725" yc="192.525" w="12.5" h="32.1" o="30.8312" />
+            </object>
+            <object id="38">
+                <box xc="51.55" yc="184.625" w="23.1705" h="22.0744" />
+                <representation type="RotatedRectangle" xc="51.55" yc="184.625" w="11.3" h="20.8" o="40.3203" />
+            </object>
+            <object id="39">
+                <box xc="81.45" yc="201.6" w="26.3892" h="22.9647" />
+                <representation type="RotatedRectangle" xc="81.45" yc="201.6" w="9.6" h="25.7" o="36.3499" />
+            </object>
+            <object id="40">
+                <box xc="117.725" yc="219.75" w="28.3193" h="20.6996" />
+                <representation type="RotatedRectangle" xc="117.725" yc="219.75" w="10.8" h="26.2" o="24.5209" />
+            </object>
+            <object id="41">
+                <box xc="149.825" yc="231" w="26.5038" h="19.5589" />
+                <representation type="RotatedRectangle" xc="149.825" yc="231" w="12.7" h="23.7" o="18.4847" />
+            </object>
+            <object id="42">
+                <box xc="619.125" yc="312.7" w="29.089" h="23.3675" />
+                <representation type="RotatedRectangle" xc="619.125" yc="312.7" w="11.7" h="26.8" o="209.459" />
+            </object>
+            <object id="43">
+                <box xc="624.2" yc="333.85" w="27.7609" h="22.0002" />
+                <representation type="RotatedRectangle" xc="624.2" yc="333.85" w="10.9" h="25.7" o="209.024" />
+            </object>
+            <object id="44">
+                <box xc="666.225" yc="356.5" w="28.5189" h="23.0206" />
+                <representation type="RotatedRectangle" xc="666.225" yc="356.5" w="10.9" h="26.7" o="210.755" />
+            </object>
+            <object id="45">
+                <box xc="699.125" yc="373.475" w="26.476" h="21.9973" />
+                <representation type="RotatedRectangle" xc="699.125" yc="373.475" w="10.2" h="24.9" o="212.559" />
+            </object>
+            <object id="46">
+                <box xc="655.3" yc="328.75" w="23.5275" h="19.6125" />
+                <representation type="RotatedRectangle" xc="655.3" yc="328.75" w="10.2" h="21.3" o="210.558" />
+            </object>
+            <object id="47">
+                <box xc="698.575" yc="350.325" w="23.588" h="19.7941" />
+                <representation type="RotatedRectangle" xc="698.575" yc="350.325" w="8.9" h="22.4" o="213.538" />
+            </object>
+            <object id="48">
+                <box xc="657.475" yc="310.075" w="25.3311" h="22.3092" />
+                <representation type="RotatedRectangle" xc="657.475" yc="310.075" w="12.3" h="22.2" o="212.535" />
+            </object>
+            <object id="49">
+                <box xc="692.225" yc="326.6" w="27.3171" h="23.6129" />
+                <representation type="RotatedRectangle" xc="692.225" yc="326.6" w="13.1" h="24" o="211.096" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="13" file="C:/Training/StuttgartCrossroad01/MOS67.png" utc="2011-Sep-28 13:20:32.784000" color="rgb" depth="byte" gsd="0.17" x="515566" y="5.40535e+006" lat="48.7989" lon="9.21453" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="248.675" yc="436.25" w="21.5822" h="25.1467" />
+                <representation type="RotatedRectangle" xc="248.675" yc="436.25" w="9.1" h="24.4" o="305.518" />
+            </object>
+            <object id="2">
+                <box xc="239.875" yc="410.3" w="32.5565" h="38.2755" />
+                <representation type="RotatedRectangle" xc="239.875" yc="410.3" w="14.1" h="36.8" o="304.738" />
+            </object>
+            <object id="3">
+                <box xc="75.05" yc="611.95" w="26.8257" h="23.8009" />
+                <representation type="RotatedRectangle" xc="75.05" yc="611.95" w="10.9" h="25.3" o="323.542" />
+            </object>
+            <object id="4">
+                <box xc="198.45" yc="510.3" w="26.0353" h="24.6338" />
+                <representation type="RotatedRectangle" xc="198.45" yc="510.3" w="10.1" h="25.8" o="318.619" />
+            </object>
+            <object id="5">
+                <box xc="132.825" yc="576.375" w="29.165" h="25.4878" />
+                <representation type="RotatedRectangle" xc="132.825" yc="576.375" w="11" h="28.1" o="323.746" />
+            </object>
+            <object id="6">
+                <box xc="132.925" yc="555.85" w="27.1409" h="23.9164" />
+                <representation type="RotatedRectangle" xc="132.925" yc="555.85" w="10.5" h="26" o="323.459" />
+            </object>
+            <object id="7">
+                <box xc="128.275" yc="599.775" w="26.7394" h="23.3526" />
+                <representation type="RotatedRectangle" xc="128.275" yc="599.775" w="11.3" h="24.7" o="325.295" />
+            </object>
+            <object id="8">
+                <box xc="11.4" yc="650.8" w="23.3001" h="19.4524" />
+                <representation type="RotatedRectangle" xc="11.4" yc="650.8" w="10.1" h="21.1" o="329.32" />
+            </object>
+            <object id="9">
+                <box xc="195.05" yc="535.3" w="25.1072" h="23.4077" />
+                <representation type="RotatedRectangle" xc="195.05" yc="535.3" w="9.1" h="25.3" o="319.254" />
+            </object>
+            <object id="10">
+                <box xc="244.45" yc="469.475" w="24.0311" h="23.2987" />
+                <representation type="RotatedRectangle" xc="244.45" yc="469.475" w="10.9" h="22.6" o="317.537" />
+            </object>
+            <object id="11">
+                <box xc="259.9" yc="483.725" w="28.7686" h="27.4614" />
+                <representation type="RotatedRectangle" xc="259.9" yc="483.725" w="9.5" h="30.3" o="317.547" />
+            </object>
+            <object id="12">
+                <box xc="347.875" yc="394.575" w="22.3963" h="23.8338" />
+                <representation type="RotatedRectangle" xc="347.875" yc="394.575" w="10.2" h="22.6" o="310.298" />
+            </object>
+            <object id="13">
+                <box xc="458.3" yc="263.375" w="23.4287" h="25.3456" />
+                <representation type="RotatedRectangle" xc="458.3" yc="263.375" w="11.2" h="23.5" o="308.673" />
+            </object>
+            <object id="14">
+                <box xc="485.125" yc="197.15" w="23.8709" h="26.518" />
+                <representation type="RotatedRectangle" xc="485.125" yc="197.15" w="10.3" h="25.6" o="307.973" />
+            </object>
+            <object id="15">
+                <box xc="576.425" yc="82.35" w="25.3724" h="26.9338" />
+                <representation type="RotatedRectangle" xc="576.425" yc="82.35" w="11.5" h="25.6" o="310.509" />
+            </object>
+            <object id="16">
+                <box xc="536.7" yc="166.275" w="23.5443" h="25.1807" />
+                <representation type="RotatedRectangle" xc="536.7" yc="166.275" w="11" h="23.6" o="309.731" />
+            </object>
+            <object id="17">
+                <box xc="585.65" yc="104.125" w="22.2273" h="23.0944" />
+                <representation type="RotatedRectangle" xc="585.65" yc="104.125" w="10.7" h="21.4" o="311.715" />
+            </object>
+            <object id="19">
+                <box xc="654.125" yc="18.25" w="36.0269" h="37.1638" />
+                <representation type="RotatedRectangle" xc="654.125" yc="18.25" w="16.4" h="35.4" o="312.575" />
+            </object>
+            <object id="23">
+                <box xc="676.225" yc="29.85" w="24.0665" h="24.1573" />
+                <representation type="RotatedRectangle" xc="676.225" yc="29.85" w="11.9" h="22.2" o="314.643" />
+            </object>
+            <object id="24">
+                <box xc="691.65" yc="11.125" w="19.9519" h="20.5866" />
+                <representation type="RotatedRectangle" xc="691.65" yc="11.125" w="9.8" h="18.9" o="312.173" />
+            </object>
+            <object id="28">
+                <box xc="143.025" yc="326.2" w="36.8538" h="33.5439" />
+                <representation type="RotatedRectangle" xc="143.025" yc="326.2" w="14.7" h="35.4" o="141.492" />
+            </object>
+            <object id="29">
+                <box xc="113.575" yc="375.175" w="29.683" h="27.3877" />
+                <representation type="RotatedRectangle" xc="113.575" yc="375.175" w="12.9" h="27.7" o="141.296" />
+            </object>
+            <object id="30">
+                <box xc="305.85" yc="223.925" w="27.2417" h="27.0626" />
+                <representation type="RotatedRectangle" xc="305.85" yc="223.925" w="10.6" h="27.8" o="135.422" />
+            </object>
+            <object id="31">
+                <box xc="412.225" yc="112.1" w="24.1715" h="25.4854" />
+                <representation type="RotatedRectangle" xc="412.225" yc="112.1" w="11" h="24.2" o="130.964" />
+            </object>
+            <object id="32">
+                <box xc="422.375" yc="75.725" w="22.2951" h="21.9535" />
+                <representation type="RotatedRectangle" xc="422.375" yc="75.725" w="11.2" h="20.1" o="136.555" />
+            </object>
+            <object id="34">
+                <box xc="154.375" yc="23.425" w="27.2304" h="27.6337" />
+                <representation type="RotatedRectangle" xc="154.375" yc="23.425" w="10.7" h="28.1" o="225.939" />
+            </object>
+            <object id="36">
+                <box xc="577.525" yc="492.225" w="25.3432" h="21.3517" />
+                <representation type="RotatedRectangle" xc="577.525" yc="492.225" w="10.3" h="23.5" o="32.6536" />
+            </object>
+            <object id="37">
+                <box xc="110.3" yc="195.3" w="34.6255" h="28.2641" />
+                <representation type="RotatedRectangle" xc="110.3" yc="195.3" w="13.5" h="32.3" o="31.1568" />
+            </object>
+            <object id="38">
+                <box xc="52.775" yc="184.225" w="23.0959" h="22.187" />
+                <representation type="RotatedRectangle" xc="52.775" yc="184.225" w="11.5" h="20.6" o="40.9504" />
+            </object>
+            <object id="39">
+                <box xc="81.975" yc="201.35" w="26.3333" h="23.0927" />
+                <representation type="RotatedRectangle" xc="81.975" yc="201.35" w="9.5" h="25.8" o="36.9187" />
+            </object>
+            <object id="40">
+                <box xc="118.675" yc="219.775" w="27.4489" h="20.4393" />
+                <representation type="RotatedRectangle" xc="118.675" yc="219.775" w="10.9" h="25.2" o="24.7197" />
+            </object>
+            <object id="41">
+                <box xc="151.35" yc="231.5" w="25.4247" h="18.5942" />
+                <representation type="RotatedRectangle" xc="151.35" yc="231.5" w="12" h="22.8" o="18.435" />
+            </object>
+            <object id="42">
+                <box xc="620.475" yc="313.125" w="28.564" h="23.0354" />
+                <representation type="RotatedRectangle" xc="620.475" yc="313.125" w="12.5" h="25.7" o="207.773" />
+            </object>
+            <object id="43">
+                <box xc="625.15" yc="334.45" w="27.6598" h="21.3119" />
+                <representation type="RotatedRectangle" xc="625.15" yc="334.45" w="10.4" h="25.8" o="208.054" />
+            </object>
+            <object id="44">
+                <box xc="667.9" yc="356.775" w="29.0818" h="23.5236" />
+                <representation type="RotatedRectangle" xc="667.9" yc="356.775" w="10.9" h="27.4" o="211.22" />
+            </object>
+            <object id="45">
+                <box xc="700.325" yc="374.225" w="27.3631" h="22.6173" />
+                <representation type="RotatedRectangle" xc="700.325" yc="374.225" w="10.8" h="25.5" o="211.804" />
+            </object>
+            <object id="46">
+                <box xc="656.8" yc="329.05" w="23.5838" h="19.1506" />
+                <representation type="RotatedRectangle" xc="656.8" yc="329.05" w="10.2" h="21.3" o="208.596" />
+            </object>
+            <object id="47">
+                <box xc="699.775" yc="350.625" w="22.9126" h="19.5442" />
+                <representation type="RotatedRectangle" xc="699.775" yc="350.625" w="8.5" h="22" o="214.838" />
+            </object>
+            <object id="48">
+                <box xc="658.8" yc="310.175" w="25.7495" h="22.1565" />
+                <representation type="RotatedRectangle" xc="658.8" yc="310.175" w="12.7" h="22.4" o="209.816" />
+            </object>
+            <object id="49">
+                <box xc="692.55" yc="327.2" w="26.5802" h="22.1151" />
+                <representation type="RotatedRectangle" xc="692.55" yc="327.2" w="10.9" h="24.5" o="211.576" />
+            </object>
+        </objectlist>
+    </frame>
+</dataset>
